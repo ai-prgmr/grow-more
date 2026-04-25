@@ -95,34 +95,38 @@
     "categories": [
       {
         "id": "fertilizers",
-        "title": "Agricultural Fertilizer",
+        "title": "Organic Fertilizer/Manures",
         "description": "Leading Manufacturer of Humi Zone Humic Acid Liquid, Humi Zone Red Powder, and Unizyme Plant Hormones.",
         "items": [
           {
             "id": "humi-liquid",
             "name": "Humi Zone Humic Acid Liquid",
             "desc": "Premium liquid humic acid for soil conditioning.",
-            "featured": true
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/Humi-Zone.jpeg"
           },
           {
             "id": "humi-red",
             "name": "Humi Zone Red Humic Acid Powder",
-            "desc": "100% Water Soluble powder for enhanced root growth."
+            "desc": "100% Water Soluble powder for enhanced root growth.",
+            "image": "/grow-more/images/bottles/new/Humi-Zone-Red.jpeg"
           },
           {
             "id": "humi-plus",
             "name": "Humi Zone Plus Humic Acid Powder",
-            "desc": "Advanced formula for maximum nutrient absorption."
+            "desc": "Advanced formula for maximum nutrient absorption.",
+            "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
           },
           {
             "id": "unizyme",
             "name": "Unizyme Plant Hormones",
-            "desc": "Agricultural fertilizer for robust plant health."
+            "desc": "Agricultural fertilizer for robust plant health.",
+            "image": "/grow-more/images/bottles/new/Unizyme.jpeg"
           }
         ]
       },
       {
-        "id": "pgr",
+        "id": "plant-growth-promoter",
         "title": "Plant Growth Promoter",
         "description": "Boost crop yield and immunity with our advanced promoters.",
         "items": [
@@ -131,13 +135,26 @@
             "name": "Grow Fast Plant Growth Promoter",
             "desc": "Accelerates vegetative growth in all crops.",
             "featured": true,
-            "image": "/grow-more/images/bottles/grow-fast-no-bg.png"
+            "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
           },
           {
             "id": "super-killer",
             "name": "Super Killer Bio Crop Protectant",
             "desc": "Dual action plant growth promoter and protectant.",
             "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+          },
+          {
+            "id": "ultima",
+            "name": "Grow Fast Plant Growth Promoter",
+            "desc": "Accelerates vegetative growth in all crops.",
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/Ultima.jpeg"
+          },
+          {
+            "id": "ulti-max",
+            "name": "Super Killer Bio Crop Protectant",
+            "desc": "Dual action plant growth promoter and protectant.",
+            "image": "/grow-more/images/bottles/new/UltiMax.jpeg"
           }
         ]
       },
@@ -150,7 +167,8 @@
             "id": "g-flower",
             "name": "G Flower Flowering Stimulant",
             "desc": "Ensures profuse flowering and better yield.",
-            "featured": true
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/G-Flower.jpeg"
           }
         ]
       },
@@ -163,13 +181,14 @@
             "id": "grow-star",
             "name": "Grow Star Granules Soil Conditioner",
             "desc": "Enriches soil with essential micro-nutrients.",
-            "featured": true
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
           }
         ]
       },
       {
         "id": "pesticides",
-        "title": "Agricultural Pesticides",
+        "title": "Agricultural Bio Pesticides",
         "description": "Effective control against harmful pests.",
         "items": [
           {
@@ -177,12 +196,6 @@
             "name": "Killer Bio Crop Protectant Pesticides",
             "desc": "Organic solution for pest management.",
             "image": "/grow-more/images/bottles/killer-no-bg.png"
-          },
-          {
-            "id": "smart-combo",
-            "name": "Smart Agricultural Pesticides Combo",
-            "desc": "Complete protection package for farms.",
-            "featured": true
           }
         ]
       },
@@ -195,24 +208,6 @@
             "id": "grow-wet",
             "name": "Grow Wet Silicone Wetting Agent",
             "desc": "Superior spreading and wetting agent.",
-            "featured": true
-          },
-          {
-            "id": "speedo",
-            "name": "Speedo Silicone Spreader",
-            "desc": "Fast-acting silicon spreader for herbicides."
-          }
-        ]
-      },
-      {
-        "id": "fungicides",
-        "title": "Agricultural Fungicides",
-        "description": "Prevent and cure fungal diseases.",
-        "items": [
-          {
-            "id": "bio-fungi",
-            "name": "Agricultural Bio Fungi Fungicides",
-            "desc": "Biological control for root and leaf fungus.",
             "featured": true
           }
         ]
