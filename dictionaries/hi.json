@@ -102,27 +102,31 @@
                         "id": "humi-liquid",
                         "name": "ह्यूमी ज़ोन ह्यूमिक एसिड लिक्विड",
                         "desc": "मिट्टी की कंडीशनिंग के लिए प्रीमियम लिक्विड ह्यूमिक एसिड।",
-                        "featured": true
+                        "featured": true,
+                        "image": "/grow-more/images/bottles/new/Humi-Zone.jpeg"
                     },
                     {
                         "id": "humi-red",
                         "name": "ह्यूमी ज़ोन रेड ह्यूमिक एसिड पाउडर",
-                        "desc": "जड़ों के बेहतर विकास के लिए 100% पानी में घुलनशील पाउडर।"
+                        "desc": "जड़ों के बेहतर विकास के लिए 100% पानी में घुलनशील पाउडर।",
+                        "image": "/grow-more/images/bottles/new/Humi-Zone-Red.jpeg"
                     },
                     {
                         "id": "humi-plus",
                         "name": "ह्यूमी ज़ोन प्लस ह्यूमिक एसिड पाउडर",
-                        "desc": "अधिकतम पोषक तत्वों के अवशोषण के लिए उन्नत फार्मूला।"
+                        "desc": "अधिकतम पोषक तत्वों के अवशोषण के लिए उन्नत फार्मूला।",
+                        "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
                     },
                     {
                         "id": "unizyme",
                         "name": "यूनीज़िम प्लांट हार्मोन्स",
-                        "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।"
+                        "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।",
+                        "image": "/grow-more/images/bottles/new/Unizyme.jpeg"
                     }
                 ]
             },
             {
-                "id": "pgr",
+                "id": "plant-growth-promoter",
                 "title": "पौध विकास वर्धक",
                 "description": "हमारे उन्नत प्रमोटरों के साथ फसल की उपज और प्रतिरक्षा बढ़ाएं।",
                 "items": [
@@ -131,13 +135,26 @@
                         "name": "ग्रो फास्ट प्लांट ग्रोथ प्रमोटर",
                         "desc": "सभी फसलों में वानस्पतिक विकास को गति देता है।",
                         "featured": true,
-                        "image": "/grow-more/images/bottles/grow-fast-no-bg.png"
+                        "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
                     },
                     {
                         "id": "super-killer",
                         "name": "सुपर किलर बायो क्रॉप प्रोटेक्टेंट",
                         "desc": "दोहरी कार्रवाई वाला प्लांट ग्रोथ प्रमोटर और रक्षक।",
                         "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+                    },
+                    {
+                        "id": "ultima",
+                        "name": "अल्टिमा प्लांट ग्रोथ प्रमोटर",
+                        "desc": "सभी फसलों में वानस्पतिक विकास को गति देता है।",
+                        "featured": true,
+                        "image": "/grow-more/images/bottles/new/Ultima.jpeg"
+                    },
+                    {
+                        "id": "ulti-max",
+                        "name": "अल्टी-मैक्स बायो क्रॉप प्रोटेक्टेंट",
+                        "desc": "दोहरी कार्रवाई वाला प्लांट ग्रोथ प्रमोटर और रक्षक।",
+                        "image": "/grow-more/images/bottles/new/UltiMax.jpeg"
                     }
                 ]
             },
@@ -150,7 +167,8 @@
                         "id": "g-flower",
                         "name": "जी फ्लावर फ्लावरिंग स्टिमुलेंट",
                         "desc": "प्रचुर मात्रा में फूल और बेहतर उपज सुनिश्चित करता है।",
-                        "featured": true
+                        "featured": true,
+                        "image": "/grow-more/images/bottles/new/G-Flower.jpeg"
                     }
                 ]
             },
@@ -163,7 +181,8 @@
                         "id": "grow-star",
                         "name": "ग्रो स्टार ग्रेन्यूल्स सॉइल कंडीशनर",
                         "desc": "मिट्टी को आवश्यक सूक्ष्म पोषक तत्वों से समृद्ध करता है।",
-                        "featured": true
+                        "featured": true,
+                        "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
                     }
                 ]
             },
@@ -177,12 +196,6 @@
                         "name": "किलर बायो क्रॉप प्रोटेक्टेंट कीटनाशक",
                         "desc": "कीट प्रबंधन के लिए जैविक समाधान।",
                         "image": "/grow-more/images/bottles/killer-no-bg.png"
-                    },
-                    {
-                        "id": "smart-combo",
-                        "name": "स्मार्ट कृषि कीटनाशक कॉम्बो",
-                        "desc": "खेतों के लिए संपूर्ण सुरक्षा पैकेज।",
-                        "featured": true
                     }
                 ]
             },
@@ -195,24 +208,6 @@
                         "id": "grow-wet",
                         "name": "ग्रो वेट सिलिकॉन वेटिंग एजेंट",
                         "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।",
-                        "featured": true
-                    },
-                    {
-                        "id": "speedo",
-                        "name": "स्पीडो सिलिकॉन स्प्रेडर",
-                        "desc": "शाकनाशियों के लिए तेजी से काम करने वाला सिलिकॉन स्प्रेडर।"
-                    }
-                ]
-            },
-            {
-                "id": "fungicides",
-                "title": "कृषि कवकनाशी",
-                "description": "फंगल रोगों को रोकें और ठीक करें।",
-                "items": [
-                    {
-                        "id": "bio-fungi",
-                        "name": "कृषि बायो फंगी कवकनाशी",
-                        "desc": "जड़ और पत्ती के कवक के लिए जैविक नियंत्रण।",
                         "featured": true
                     }
                 ]
@@ -338,8 +333,8 @@
         "locations": {
             "title": "हमारे स्थान",
             "factory": {
-                "title": "office",
-                "address": "123, औद्योगिक क्षेत्र, बेटमा, इंदौर, म.प्र."
+                "title": "कार्यालय",
+                "address": "18-बी, एम.पी.आई.डी.सी., कलासुरा रोड, बीजेपुर, म.प्र. 453001 भारत"
             }
         },
         "distributor": {
@@ -389,17 +384,17 @@
             "title": "वितरक बनें",
             "subtitle": "हमारे बढ़ते नेटवर्क से जुड़ें और प्रीमियम उत्पादों के साथ उच्च मार्जिन अर्जित करें। नीचे दिया गया फॉर्म भरें या सीधे WhatsApp पर हमें मैसेज करें।",
             "form": {
-                "title": "Distributor Application Form",
-                "name_label": "Full Name",
-                "name_placeholder": "Enter your name",
-                "company_label": "Company/shop Name",
-                "company_placeholder": "Enter your company/shop name",
-                "phone_label": "Phone Number",
-                "phone_placeholder": "Enter your phone number",
-                "city_label": "City",
-                "city_placeholder": "Enter your city",
-                "district_label": "District",
-                "district_placeholder": "Enter your district",
+                "title": "वितरक आवेदन फॉर्म",
+                "name_label": "पूरा नाम",
+                "name_placeholder": "अपना नाम दर्ज करें",
+                "company_label": "कंपनी/दुकान का नाम",
+                "company_placeholder": "अपनी कंपनी/दुकान का नाम दर्ज करें",
+                "phone_label": "फ़ोन नंबर",
+                "phone_placeholder": "अपना फ़ोन नंबर दर्ज करें",
+                "city_label": "शहर",
+                "city_placeholder": "अपना शहर दर्ज करें",
+                "district_label": "ज़िला",
+                "district_placeholder": "अपना ज़िला दर्ज करें",
                 "submit_btn": "आवेदन जमा करें",
                 "success_msg": "धन्यवाद! हमें आपका अनुरोध मिल गया है और हम जल्द ही आपसे संपर्क करेंगे।"
             },
