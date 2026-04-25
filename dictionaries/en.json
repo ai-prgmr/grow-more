@@ -319,19 +319,19 @@
       {
         "title": "Farmer Helpline",
         "desc": "Technical advice on dosage and crop diseases.",
-        "phone": "+91 98XXX XXXXX",
+        "phone": "+917247077028",
         "action": "Call Expert"
       },
       {
         "title": "Sales Inquiry",
         "desc": "For bulk orders, pricing, and logistics.",
-        "phone": "+91 98XXX XXXXX",
+        "phone": "+917247077028",
         "action": "Call Sales"
       },
       {
         "title": "Email Us",
         "desc": "For general queries and corporate partnerships.",
-        "info": "growmore@growmore.in",
+        "info": "growmoreagriscience@gmail.com",
         "action": "Send Email"
       }
     ],
@@ -348,7 +348,7 @@
       "cta_text": "Call to Register",
       "whatsapp_btn": "Chat on WhatsApp",
       "whatsapp_msg": "Hello, I am interested in becoming a distributor. Please share more details.",
-      "phone": "+91 7974889472"
+      "phone": "+917247077028"
     }
   },
   "distributors_page": {
@@ -392,10 +392,14 @@
         "title": "Distributor Application Form",
         "name_label": "Full Name",
         "name_placeholder": "Enter your name",
+        "company_label": "Company/shop Name",
+        "company_placeholder": "Enter your company/shop name",
         "phone_label": "Phone Number",
         "phone_placeholder": "Enter your phone number",
-        "city_label": "City/District",
+        "city_label": "City",
         "city_placeholder": "Enter your city",
+        "district_label": "District",
+        "district_placeholder": "Enter your district",
         "submit_btn": "Submit Application",
         "success_msg": "Thank you! We've received your request and will get back to you soon."
       },
@@ -403,7 +407,7 @@
         "title": "Or Message Us",
         "btn_text": "Chat on WhatsApp",
         "message": "Hello, I want to become a distributor for GrowMore. Please share details.",
-        "phone": "917974889472"
+        "phone": "+917247077028"
       }
     },
     "faq": {

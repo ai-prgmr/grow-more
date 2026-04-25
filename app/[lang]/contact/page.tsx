@@ -47,7 +47,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                                         <Icon className="h-6 w-6" />
                                     </div>
                                     <h3 className="text-xl font-bold text-slate-900 mb-2">{card.title}</h3>
-                                    <p className="text-slate-600 mb-6 flex-grow">{card.desc}</p>
+                                    <p className="text-slate-600 mb-6 grow">{card.desc}</p>
 
                                     <div className="space-y-4 mt-auto">
                                         <div className="font-medium text-slate-900">

@@ -29,7 +29,7 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
                     <h4 className="font-semibold text-white mb-4">Contact</h4>
                     <p className="text-sm text-slate-400 leading-relaxed">
                         <strong>Email:</strong>growmoreagriscience@gmail.com<br />
-                        <strong>Phone:</strong> +91 7247077028<br />
+                        <strong>Phone:</strong> +917247077028<br />
                         <strong>Address:</strong>18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001 INDIA
                     </p>
                 </div>

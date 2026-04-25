@@ -319,19 +319,19 @@
             {
                 "title": "किसान हेल्पलाइन",
                 "desc": "खुराक और फसल रोगों पर तकनीकी सलाह।",
-                "phone": "+91 98XXX XXXXX",
+                "phone": "+917247077028",
                 "action": "विशेषज्ञ को कॉल करें"
             },
             {
                 "title": "बिक्री पूछताछ",
                 "desc": "थोक आदेश, मूल्य निर्धारण और रसद के लिए।",
-                "phone": "+91 98XXX XXXXX",
+                "phone": "+917247077028",
                 "action": "बिक्री को कॉल करें"
             },
             {
                 "title": "हमें ईमेल करें",
                 "desc": "सामान्य पूछताछ और कॉर्पोरेट साझेदारी के लिए।",
-                "info": "growmore@growmore.in",
+                "info": "growmoreagriscience@gmail.com",
                 "action": "ईमेल भेजें"
             }
         ],
@@ -348,7 +348,7 @@
             "cta_text": "रजिस्टर करने के लिए कॉल करें",
             "whatsapp_btn": "व्हाट्सएप पर चैट करें",
             "whatsapp_msg": "नमस्ते, मैं वितरक बनने में रुचि रखता हूँ। कृपया अधिक जानकारी दें।",
-            "phone": "+91 99XXX XXXXX"
+            "phone": "+917247077028"
         }
     },
     "distributors_page": {
@@ -389,13 +389,17 @@
             "title": "वितरक बनें",
             "subtitle": "हमारे बढ़ते नेटवर्क से जुड़ें और प्रीमियम उत्पादों के साथ उच्च मार्जिन अर्जित करें। नीचे दिया गया फॉर्म भरें या सीधे WhatsApp पर हमें मैसेज करें।",
             "form": {
-                "title": "वितरक आवेदन फॉर्म",
-                "name_label": "पूरा नाम",
-                "name_placeholder": "अपना नाम दर्ज करें",
-                "phone_label": "फ़ोन नंबर",
-                "phone_placeholder": "अपना फ़ोन नंबर दर्ज करें",
-                "city_label": "शहर/जिला",
-                "city_placeholder": "अपना शहर दर्ज करें",
+                "title": "Distributor Application Form",
+                "name_label": "Full Name",
+                "name_placeholder": "Enter your name",
+                "company_label": "Company/shop Name",
+                "company_placeholder": "Enter your company/shop name",
+                "phone_label": "Phone Number",
+                "phone_placeholder": "Enter your phone number",
+                "city_label": "City",
+                "city_placeholder": "Enter your city",
+                "district_label": "District",
+                "district_placeholder": "Enter your district",
                 "submit_btn": "आवेदन जमा करें",
                 "success_msg": "धन्यवाद! हमें आपका अनुरोध मिल गया है और हम जल्द ही आपसे संपर्क करेंगे।"
             },
@@ -403,7 +407,7 @@
                 "title": "या हमें संदेश भेजें",
                 "btn_text": "व्हाट्सएप पर चैट करें",
                 "message": "नमस्ते, मैं ग्रो-मोर का वितरक बनना चाहता हूँ। कृपया अधिक जानकारी दें।",
-                "phone": "917974889472"
+                "phone": "+917247077028"
             }
         },
         "faq": {

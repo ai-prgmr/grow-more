@@ -37,7 +37,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
         })
     })
 
-    const WA_NUMBER = "917417413481" // Updated placeholder
+    const WA_NUMBER = "+917247077028"
 
     // Fallback for languages that might not have FAQ yet
     const faqData = home.faq || { title: "Frequently Asked Questions", subtitle: "Answers about our products.", questions: [] }

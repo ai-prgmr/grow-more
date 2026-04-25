@@ -171,6 +171,18 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
                                     />
                                 </div>
                                 <div className="space-y-2">
+                                    <label htmlFor="company_name" className="text-sm font-semibold text-slate-700 block">
+                                        {distributors_page.join.form.company_label}
+                                    </label>
+                                    <input
+                                        id="company_name"
+                                        type="text"
+                                        required
+                                        placeholder={distributors_page.join.form.company_placeholder}
+                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                                    />
+                                </div>
+                                <div className="space-y-2">
                                     <label htmlFor="phone" className="text-sm font-semibold text-slate-700 block">
                                         {distributors_page.join.form.phone_label}
                                     </label>
@@ -191,6 +203,18 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
                                         type="text"
                                         required
                                         placeholder={distributors_page.join.form.city_placeholder}
+                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                                    />
+                                </div>
+                                <div className="space-y-2">
+                                    <label htmlFor="city" className="text-sm font-semibold text-slate-700 block">
+                                        {distributors_page.join.form.district_label}
+                                    </label>
+                                    <input
+                                        id="city"
+                                        type="text"
+                                        required
+                                        placeholder={distributors_page.join.form.district_placeholder}
                                         className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
                                     />
                                 </div>
@@ -235,7 +259,7 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
                             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">{faqData.title}</h2>
                             <p className="text-slate-600 text-lg">{faqData.subtitle}</p>
                         </div>
-                        
+
                         <div className="space-y-6">
                             {faqData.questions.map((item: any, index: number) => (
                                 <div key={index} className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
