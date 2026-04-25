@@ -21,15 +21,13 @@ interface HeroCarouselProps {
 
 export default function HeroCarousel({ slides }: HeroCarouselProps) {
     const plugin = React.useRef(
-        Autoplay({ delay: 8000 })
+        Autoplay({ delay: 8000, stopOnInteraction: false, stopOnMouseEnter: false })
     )
 
     return (
         <Carousel
             plugins={[plugin.current]}
             className="w-full"
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
             opts={{
                 loop: true,
             }}

@@ -337,15 +337,9 @@
         ],
         "locations": {
             "title": "हमारे स्थान",
-            "corporate": {
-                "title": "कॉर्पोरेट कार्यालय",
-                "address": "405, शेखर सेंट्रल, पलासिया स्क्वायर, इंदौर, म.प्र. 452001.",
-                "mapUri": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.081045239276!2d75.8816!3d22.7239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0d9c4fb849%3A0x629c414674313b!2sShekhar%20Central!5e0!3m2!1sen!2sin!4v1716382956743!5m2!1sen!2sin"
-            },
             "factory": {
-                "title": "फैक्टरी प्लांट",
-                "address": "123, औद्योगिक क्षेत्र, बेटमा, इंदौर, म.प्र.",
-                "mapUri": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14713.844788326756!2d75.5682!3d22.6869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f3a6963486c9%3A0x768786f6f9660c60!2sBetma%2C%20Madhya%20Pradesh%20453001!5e0!3m2!1sen!2sin!4v1716382956743!5m2!1sen!2sin"
+                "title": "office",
+                "address": "123, औद्योगिक क्षेत्र, बेटमा, इंदौर, म.प्र."
             }
         },
         "distributor": {

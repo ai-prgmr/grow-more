@@ -76,30 +76,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-slate-900">{contact.locations.title}</h2>
                     </div>
-                    <div className="grid md:grid-cols-2 gap-8">
-                        {/* Corporate Office */}
-                        <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col">
-                            <div className="p-6 border-b border-slate-100">
-                                <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                                    <MapPin className="text-green-600 h-5 w-5" />
-                                    {contact.locations.corporate.title}
-                                </h3>
-                                <p className="text-slate-600 mt-2">{contact.locations.corporate.address}</p>
-                            </div>
-                            <div className="h-[300px] w-full bg-slate-200">
-                                <iframe
-                                    src={contact.locations.corporate.mapUri}
-                                    width="100%"
-                                    height="100%"
-                                    style={{ border: 0 }}
-                                    allowFullScreen
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                    title="Corporate Location"
-                                />
-                            </div>
-                        </div>
-
+                    <div className="grid grid-cols-1 gap-8">
                         {/* Factory Plant */}
                         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden flex flex-col">
                             <div className="p-6 border-b border-slate-100">
@@ -108,18 +85,6 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                                     {contact.locations.factory.title}
                                 </h3>
                                 <p className="text-slate-600 mt-2">{contact.locations.factory.address}</p>
-                            </div>
-                            <div className="h-[300px] w-full bg-slate-200">
-                                <iframe
-                                    src={contact.locations.factory.mapUri}
-                                    width="100%"
-                                    height="100%"
-                                    style={{ border: 0 }}
-                                    allowFullScreen
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                    title="Factory Location"
-                                />
                             </div>
                         </div>
                     </div>
@@ -167,16 +132,8 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                             'address': [
                                 {
                                     '@type': 'PostalAddress',
-                                    'streetAddress': contact.locations.corporate.address,
-                                    'addressLocality': 'Indore',
-                                    'addressRegion': 'MP',
-                                    'postalCode': '452001',
-                                    'addressCountry': 'IN'
-                                },
-                                {
-                                    '@type': 'PostalAddress',
                                     'streetAddress': contact.locations.factory.address,
-                                    'addressLocality': 'Betma',
+                                    'addressLocality': 'Kalasura',
                                     'addressRegion': 'MP',
                                     'addressCountry': 'IN'
                                 }
