@@ -121,7 +121,7 @@
             "id": "unizyme",
             "name": "Unizyme Plant Hormones",
             "desc": "Agricultural fertilizer for robust plant health.",
-            "image": "/grow-more/images/bottles/new/Unizyme.jpeg"
+            "image": "/grow-more/images/bottles/new/unizyme.jpeg"
           }
         ]
       },
@@ -195,7 +195,7 @@
             "id": "killer-bio",
             "name": "Killer Bio Crop Protectant Pesticides",
             "desc": "Organic solution for pest management.",
-            "image": "/grow-more/images/bottles/killer-no-bg.png"
+            "image": "/grow-more/images/bottles/Killer-no-bg.png"
           }
         ]
       },
@@ -207,8 +207,7 @@
           {
             "id": "grow-wet",
             "name": "Grow Wet Silicone Wetting Agent",
-            "desc": "Superior spreading and wetting agent.",
-            "featured": true
+            "desc": "Superior spreading and wetting agent."
           }
         ]
       }

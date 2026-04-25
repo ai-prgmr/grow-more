@@ -121,7 +121,7 @@
                         "id": "unizyme",
                         "name": "यूनीज़िम प्लांट हार्मोन्स",
                         "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।",
-                        "image": "/grow-more/images/bottles/new/Unizyme.jpeg"
+                        "image": "/grow-more/images/bottles/new/unizyme.jpeg"
                     }
                 ]
             },
@@ -195,7 +195,7 @@
                         "id": "killer-bio",
                         "name": "किलर बायो क्रॉप प्रोटेक्टेंट कीटनाशक",
                         "desc": "कीट प्रबंधन के लिए जैविक समाधान।",
-                        "image": "/grow-more/images/bottles/killer-no-bg.png"
+                        "image": "/grow-more/images/bottles/Killer-no-bg.png"
                     }
                 ]
             },
@@ -207,8 +207,7 @@
                     {
                         "id": "grow-wet",
                         "name": "ग्रो वेट सिलिकॉन वेटिंग एजेंट",
-                        "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।",
-                        "featured": true
+                        "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।"
                     }
                 ]
             }

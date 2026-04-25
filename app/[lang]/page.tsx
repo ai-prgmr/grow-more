@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { Metadata } from 'next'
 import Script from 'next/script'
+import Image from 'next/image'
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
@@ -97,9 +98,19 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
                             <div key={index} className="bg-[#fffcf8] rounded-2xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-lg transition-all group flex flex-col">
                                 {/* Product Image Placeholder */}
                                 <div className="aspect-4/3 relative overflow-hidden">
-                                    <div className="absolute inset-0 flex items-center justify-center text-slate-300">
-                                        <Leaf className="h-12 w-12 opacity-20" />
-                                    </div>
+                                    {product.image ? (
+                                        // object-contain is perfect here so the bottles aren't cropped
+                                        <Image
+                                            src={product.image}
+                                            alt={product.name}
+                                            fill
+                                            className="object-contain p-6 group-hover:scale-105 transition-transform duration-500"
+                                        />
+                                    ) : (
+                                        <div className="absolute inset-0 flex items-center justify-center text-slate-400 bg-slate-50 group-hover:scale-105 transition-transform duration-500">
+                                            <span className="text-6xl opacity-20">🌿</span>
+                                        </div>
+                                    )}
                                 </div>
                                 <div className="p-5 flex flex-col grow">
                                     <div className="text-xs font-medium text-green-600 mb-2 uppercase tracking-wide">{product.category}</div>
