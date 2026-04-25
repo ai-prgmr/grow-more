@@ -1,0 +1,434 @@
+{
+  "site": {
+    "name": "GrowMore",
+    "description": "Premium Agricultural Solutions - Fertilizers, Pesticides & Plant Growth Promoters",
+    "url": "https://www.growmore.in"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Our Products",
+    "about": "About Us",
+    "distributors": "Distributors",
+    "contact": "Contact Us"
+  },
+  "modal": {
+    "title": "Choose Language",
+    "desc": "Would you like to switch to Hindi?",
+    "confirm": "Switch to Hindi",
+    "cancel": "Keep English"
+  },
+  "home": {
+    "metadata": {
+      "title": "Premium Agricultural Fertilizers & Solutions",
+      "description": "GrowMore provides high-quality Humic Acid, Plant Growth Promoters, and agricultural solutions for Indian farmers. Research-backed formulas for better crop health."
+    },
+    "hero_slides": [
+      {
+        "title": "Maximize Your Yield",
+        "subtitle": "Advanced formulas for Indian Agriculture",
+        "image": "/grow-more/images/banner/products.png",
+        "mobileImage": "/grow-more/images/banner/mobile-banner-1.png"
+      },
+      {
+        "title": "Protect Your Crops",
+        "subtitle": "Bio-safe pesticides and fungicides",
+        "image": "/grow-more/images/banner/banner-2.png",
+        "mobileImage": "/grow-more/images/banner/mobile-banner-2.png"
+      },
+      {
+        "title": "Join Our Network",
+        "subtitle": "Become a verified distributor today",
+        "image": "/grow-more/images/banner/banner-3.png",
+        "mobileImage": "/grow-more/images/banner/mobile-banner-3.png"
+      }
+    ],
+    "features": [
+      {
+        "title": "Organic Solutions",
+        "desc": "Eco-friendly products for sustainable farming.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Bio-Stimulant",
+        "desc": "Easy application for maximum efficiency.",
+        "icon": "droplet"
+      },
+      {
+        "title": "Crop Protection",
+        "desc": "Defend against pests and diseases effectively.",
+        "icon": "shield"
+      }
+    ],
+    "featured_title": "Our Best Sellers",
+    "distributor_banner": {
+      "title": "Join Our Network",
+      "subtitle": "Join 200+ successful dealers across India.",
+      "cta_call": "Call Now",
+      "cta_wa": "WhatsApp"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers about our premium agricultural solutions.",
+      "questions": [
+        {
+          "q": "What is GrowMore?",
+          "a": "GrowMore is a leading manufacturer of premium agricultural solutions, including Humic Acid, Plant Growth Promoters, and bio-safe pesticides specifically formulated for Indian farmers."
+        },
+        {
+          "q": "What agricultural products does GrowMore manufacture?",
+          "a": "We manufacture high-quality agricultural fertilizers like Humi Zone, plant growth promoters like Grow Fast, flowering stimulants, soil conditioners, organic pesticides, and silicone spreaders."
+        },
+        {
+          "q": "How can I become a GrowMore distributor in India?",
+          "a": "You can easily join our network of 200+ successful dealers across India. Simply contact our sales team via phone or WhatsApp on our Distributors page to apply."
+        }
+      ]
+    }
+  },
+  "products": {
+    "metadata": {
+      "title": "Agricultural Products | Fertilizers & Crop Protection",
+      "description": "Explore GrowMore's range of premium products including Humi Zone, Unizyme, and bio-safe pesticides. Advanced solutions for every crop and soil type."
+    },
+    "title": "Our Products",
+    "subtitle": "Explore our complete range of agricultural solutions",
+    "categories": [
+      {
+        "id": "fertilizers",
+        "title": "Agricultural Fertilizer",
+        "description": "Leading Manufacturer of Humi Zone Humic Acid Liquid, Humi Zone Red Powder, and Unizyme Plant Hormones.",
+        "items": [
+          {
+            "id": "humi-liquid",
+            "name": "Humi Zone Humic Acid Liquid",
+            "desc": "Premium liquid humic acid for soil conditioning.",
+            "featured": true
+          },
+          {
+            "id": "humi-red",
+            "name": "Humi Zone Red Humic Acid Powder",
+            "desc": "100% Water Soluble powder for enhanced root growth."
+          },
+          {
+            "id": "humi-plus",
+            "name": "Humi Zone Plus Humic Acid Powder",
+            "desc": "Advanced formula for maximum nutrient absorption."
+          },
+          {
+            "id": "unizyme",
+            "name": "Unizyme Plant Hormones",
+            "desc": "Agricultural fertilizer for robust plant health."
+          }
+        ]
+      },
+      {
+        "id": "pgr",
+        "title": "Plant Growth Promoter",
+        "description": "Boost crop yield and immunity with our advanced promoters.",
+        "items": [
+          {
+            "id": "grow-fast",
+            "name": "Grow Fast Plant Growth Promoter",
+            "desc": "Accelerates vegetative growth in all crops.",
+            "featured": true,
+            "image": "/grow-more/images/bottles/grow-fast-no-bg.png"
+          },
+          {
+            "id": "super-killer",
+            "name": "Super Killer Bio Crop Protectant",
+            "desc": "Dual action plant growth promoter and protectant.",
+            "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+          }
+        ]
+      },
+      {
+        "id": "flowering",
+        "title": "Flowering Stimulant",
+        "description": "Specialized solutions to prevent flower drop and increase fruit setting.",
+        "items": [
+          {
+            "id": "g-flower",
+            "name": "G Flower Flowering Stimulant",
+            "desc": "Ensures profuse flowering and better yield.",
+            "featured": true
+          }
+        ]
+      },
+      {
+        "id": "soil",
+        "title": "Soil Conditioner",
+        "description": "Improve soil structure and fertility.",
+        "items": [
+          {
+            "id": "grow-star",
+            "name": "Grow Star Granules Soil Conditioner",
+            "desc": "Enriches soil with essential micro-nutrients.",
+            "featured": true
+          }
+        ]
+      },
+      {
+        "id": "pesticides",
+        "title": "Agricultural Pesticides",
+        "description": "Effective control against harmful pests.",
+        "items": [
+          {
+            "id": "killer-bio",
+            "name": "Killer Bio Crop Protectant Pesticides",
+            "desc": "Organic solution for pest management.",
+            "image": "/grow-more/images/bottles/killer-no-bg.png"
+          },
+          {
+            "id": "smart-combo",
+            "name": "Smart Agricultural Pesticides Combo",
+            "desc": "Complete protection package for farms.",
+            "featured": true
+          }
+        ]
+      },
+      {
+        "id": "spreader",
+        "title": "Silicone Spreader",
+        "description": "Maximize the efficiency of your sprays.",
+        "items": [
+          {
+            "id": "grow-wet",
+            "name": "Grow Wet Silicone Wetting Agent",
+            "desc": "Superior spreading and wetting agent.",
+            "featured": true
+          },
+          {
+            "id": "speedo",
+            "name": "Speedo Silicone Spreader",
+            "desc": "Fast-acting silicon spreader for herbicides."
+          }
+        ]
+      },
+      {
+        "id": "fungicides",
+        "title": "Agricultural Fungicides",
+        "description": "Prevent and cure fungal diseases.",
+        "items": [
+          {
+            "id": "bio-fungi",
+            "name": "Agricultural Bio Fungi Fungicides",
+            "desc": "Biological control for root and leaf fungus.",
+            "featured": true
+          }
+        ]
+      }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions About Our Products",
+      "subtitle": "Everything you need to know about our premium agricultural solutions.",
+      "questions": [
+        {
+          "q": "What types of agricultural products does GrowMore manufacture?",
+          "a": "GrowMore manufactures a comprehensive range of premium agricultural solutions, including humic acid fertilizers (Humi Zone), plant growth promoters (Grow Fast), flowering stimulants, soil conditioners, organic pesticides, and silicone spreaders."
+        },
+        {
+          "q": "Are GrowMore agricultural products suitable for organic farming in India?",
+          "a": "Yes, many of our products, such as our Killer Bio Crop Protectant and Bio Stimulants, are eco-friendly and formulated specifically to support sustainable and organic farming practices across India."
+        },
+        {
+          "q": "How do GrowMore plant growth promoters increase crop yield?",
+          "a": "Our advanced plant growth promoters, like Grow Fast and Unizyme, accelerate vegetative growth, boost plant immunity against diseases, and ensure maximum nutrient absorption, leading to significantly higher and healthier crop yields."
+        }
+      ]
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "About Us | Empowering Indian Agriculture since 2015",
+      "description": "Learn about GrowMore's journey, our core values of quality and innovation, and the experts behind our research-backed agricultural solutions."
+    },
+    "hero": {
+      "title": "Empowering Indian Agriculture",
+      "subtitle": "Bridging the gap between science and soil since 2015."
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "We started with a simple mission: to provide Indian farmers with high-quality, research-backed fertilizers that actually work. Over the years, we have grown from a small unit to a leading manufacturer of Humic Acid and Plant Growth Promoters. We believe that healthy soil leads to a healthy nation."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": [
+        {
+          "title": "Quality Assurance",
+          "desc": "Every batch is lab-tested for purity."
+        },
+        {
+          "title": "Farmer First",
+          "desc": "Affordable solutions designed for Indian soil."
+        },
+        {
+          "title": "Innovation",
+          "desc": "Constantly researching new formulas."
+        }
+      ]
+    },
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "10+"
+      },
+      {
+        "label": "Products",
+        "value": "20+"
+      },
+      {
+        "label": "Happy Farmers",
+        "value": "10k+"
+      },
+      {
+        "label": "Dealers",
+        "value": "200+"
+      }
+    ],
+    "team": {
+      "title": "Meet Our Founders",
+      "subtitle": "The experts behind the quality",
+      "members": [
+        {
+          "name": "Yatin Patel",
+          "role": "Managing Director",
+          "focus": "Strategic Vision",
+          "quote": "Our goal is simple: Double the farmer's income through better yield.",
+          "image": "/grow-more/images/team/founder1.jpg"
+        },
+        {
+          "name": "Ravi Patel",
+          "role": "Director of Operations",
+          "focus": "Supply Chain & Support",
+          "quote": "Ensuring our products reach the remotest village on time is my promise.",
+          "image": "/grow-more/images/team/founder3.jpg"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact Us | Distributor & Farmer Support",
+      "description": "Get in touch with the GrowMore team for technical advice, sales inquiries, or to become a verified distributor. Locations in Indore and Betma, MP."
+    },
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We are here to help. Call us directly for immediate assistance."
+    },
+    "cards": [
+      {
+        "title": "Farmer Helpline",
+        "desc": "Technical advice on dosage and crop diseases.",
+        "phone": "+91 98XXX XXXXX",
+        "action": "Call Expert"
+      },
+      {
+        "title": "Sales Inquiry",
+        "desc": "For bulk orders, pricing, and logistics.",
+        "phone": "+91 98XXX XXXXX",
+        "action": "Call Sales"
+      },
+      {
+        "title": "Email Us",
+        "desc": "For general queries and corporate partnerships.",
+        "info": "growmore@growmore.in",
+        "action": "Send Email"
+      }
+    ],
+    "locations": {
+      "title": "Our Locations",
+      "corporate": {
+        "title": "Corporate Office",
+        "address": "405, Shekhar Central, Palasia Square, Indore, MP 452001.",
+        "mapUri": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.081045239276!2d75.8816!3d22.7239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0d9c4fb849%3A0x629c414674313b!2sShekhar%20Central!5e0!3m2!1sen!2sin!4v1716382956743!5m2!1sen!2sin"
+      },
+      "factory": {
+        "title": "Factory Plant",
+        "address": "123, Industrial Area, Betma, Indore, MP.",
+        "mapUri": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14713.844788326756!2d75.5682!3d22.6869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f3a6963486c9%3A0x768786f6f9660c60!2sBetma%2C%20Madhya%20Pradesh%20453001!5e0!3m2!1sen!2sin!4v1716382956743!5m2!1sen!2sin"
+      }
+    },
+    "distributor": {
+      "title": "Become a Distributor",
+      "subtitle": "Join our growing network. High margins, marketing support, and premium products.",
+      "cta_text": "Call to Register",
+      "whatsapp_btn": "Chat on WhatsApp",
+      "whatsapp_msg": "Hello, I am interested in becoming a distributor. Please share more details.",
+      "phone": "+91 7974889472"
+    }
+  },
+  "distributors_page": {
+    "metadata": {
+      "title": "Our Distributors | GrowMore",
+      "description": "Find our trusted distributors across India or join our network."
+    },
+    "hero": {
+      "title": "Expanding Growth, Together",
+      "subtitle": "Join our trusted distributors network and deliver high performance agricultural products across regions."
+    },
+    "locations": {
+      "title": "Distributor Locations",
+      "subtitle": "We have a strong network of distributors across the country. Check the map below for our major hubs.",
+      "mapUri": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14713.844788326756!2d75.5682!3d22.6869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f3a6963486c9!2sMadhya%20Pradesh!5e0!3m2!1sen!2sin!4v1716382956743!5m2!1sen!2sin",
+      "list": [
+        {
+          "name": "Agro Solutions Indore",
+          "city": "Indore, MP",
+          "address": "Navlakha Square, Indore, MP 452001",
+          "phone": "+91 98XXX XXXXX"
+        },
+        {
+          "name": "Kisan Seva Kendra",
+          "city": "Sehore, MP",
+          "address": "Bhopal Naka, Sehore, MP 466001",
+          "phone": "+91 97XXX XXXXX"
+        },
+        {
+          "name": "Green Earth Distributors",
+          "city": "Ujjain, MP",
+          "address": "Dewas Road, Ujjain, MP 456010",
+          "phone": "+91 96XXX XXXXX"
+        }
+      ]
+    },
+    "join": {
+      "title": "Become a Distributor",
+      "subtitle": "Join our growing network and earn high margins with premium products. Fill out the form below or message us directly on WhatsApp.",
+      "form": {
+        "title": "Distributor Application Form",
+        "name_label": "Full Name",
+        "name_placeholder": "Enter your name",
+        "phone_label": "Phone Number",
+        "phone_placeholder": "Enter your phone number",
+        "city_label": "City/District",
+        "city_placeholder": "Enter your city",
+        "submit_btn": "Submit Application",
+        "success_msg": "Thank you! We've received your request and will get back to you soon."
+      },
+      "whatsapp": {
+        "title": "Or Message Us",
+        "btn_text": "Chat on WhatsApp",
+        "message": "Hello, I want to become a distributor for GrowMore. Please share details.",
+        "phone": "917974889472"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Distributorship",
+      "subtitle": "Learn how you can grow with us as a partner.",
+      "questions": [
+        {
+          "q": "How do I become a verified distributor for GrowMore agricultural products?",
+          "a": "You can easily apply to become a distributor by filling out the application form on our Distributors page or by directly messaging our sales team on WhatsApp. We welcome partnerships across India."
+        },
+        {
+          "q": "What are the benefits of becoming a GrowMore distributor?",
+          "a": "GrowMore distributors enjoy industry-leading profit margins, dedicated marketing support, access to a premium range of research-backed agricultural products, and membership in an exclusive network of over 200 successful dealers."
+        },
+        {
+          "q": "In which locations does GrowMore currently have distributors?",
+          "a": "We have a rapidly expanding network of trusted distributors across India, with major central hubs currently operating in Indore, Sehore, and Ujjain in Madhya Pradesh."
+        }
+      ]
+    }
+  }
+}
