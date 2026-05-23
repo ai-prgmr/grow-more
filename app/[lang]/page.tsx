@@ -69,6 +69,8 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
                 <HeroCarousel slides={home.hero_slides} />
             </section>
 
+            <h1 className='text-3xl font-bold text-slate-900 mb-3 p-6 text-center'>{home.h1_text}</h1>
+
             {/* 2. Core Benefits (Features) */}
             <section className="py-20">
                 <div className="container mx-auto px-4">

@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import { getDictionary } from '@/lib/dictionary'
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import Script from 'next/script'
 import { HelpCircle } from 'lucide-react'
 
@@ -95,44 +96,51 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                                 <p className="text-slate-600">{category.description}</p>
                             </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                {category.items.map((item: any, index: number) => (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+                                {category.items.map((item: any) => (
                                     <div
                                         key={item.id}
-                                        // The magic happens here: We reverse the row direction if the index is odd
-                                        className={`flex flex-col md:flex-row ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
-                                            } gap-8 md:gap-16 items-center group`}
+                                        className="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full"
                                     >
-                                        {/* Image Column */}
-                                        <div className="w-full md:w-1/2 h-72 md:h-96 relative overflow-hidden bg-white border border-slate-100 rounded-3xl shadow-sm group-hover:shadow-xl transition-all duration-500 p-8">
+                                        {/* Image Section */}
+                                        <div className="aspect-[3/4] w-full relative overflow-hidden bg-slate-50/50 border-b border-slate-100/50 flex items-center justify-center p-6 group-hover:bg-slate-100/50 transition-colors duration-300">
                                             {item.image ? (
-                                                // object-contain is perfect here so the bottles aren't cropped
                                                 <Image
                                                     src={item.image}
                                                     alt={item.name}
                                                     fill
-                                                    className="object-contain p-6 group-hover:scale-105 transition-transform duration-500"
+                                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                                    className="object-contain p-6 group-hover:scale-108 transition-transform duration-500 ease-out"
                                                 />
                                             ) : (
-                                                <div className="absolute inset-0 flex items-center justify-center text-slate-400 bg-slate-50 group-hover:scale-105 transition-transform duration-500">
-                                                    <span className="text-6xl opacity-20">🌿</span>
+                                                <div className="absolute inset-0 flex items-center justify-center text-slate-300 bg-slate-50/30">
+                                                    <span className="text-6xl group-hover:scale-110 transition-transform duration-500 ease-out opacity-20">🌿</span>
                                                 </div>
                                             )}
                                         </div>
 
-                                        {/* Text Content Column */}
-                                        <div className="w-full md:w-1/2 flex flex-col justify-center space-y-4">
-                                            <h3 className="text-2xl md:text-3xl font-bold text-slate-900 group-hover:text-green-700 transition-colors">
+                                        {/* Text & Action Section */}
+                                        <div className="p-6 flex flex-col flex-grow">
+                                            <h3 className="text-xl font-bold text-slate-800 group-hover:text-green-700 transition-colors duration-300 mb-2 line-clamp-2 min-h-[3.5rem] flex items-center">
                                                 {item.name}
                                             </h3>
-                                            <p className="text-lg text-slate-600 leading-relaxed">
+                                            <p className="text-sm text-slate-500 leading-relaxed mb-6 flex-grow line-clamp-3">
                                                 {item.desc}
                                             </p>
 
-                                            <div className="pt-6">
-                                                {/* I updated the button to be a bit more prominent for this larger layout */}
-                                                <Button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-6 rounded-xl text-md transition-colors shadow-md hover:shadow-lg">
-                                                    Connect with Us
+                                            <div className="pt-4 border-t border-slate-100 mt-auto">
+                                                <Button asChild className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-xl transition-all shadow-sm hover:shadow-md">
+                                                    <Link
+                                                        href={`https://wa.me/917247077028?text=${encodeURIComponent(
+                                                            lang === 'hi'
+                                                                ? `नमस्ते, मैं ${item.name} में रुचि रखता हूँ। कृपया इसके बारे में अधिक जानकारी साझा करें।`
+                                                                : `Hello, I am interested in ${item.name}. Please share more details.`
+                                                        )}`}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                    >
+                                                        Connect with Us
+                                                    </Link>
                                                 </Button>
                                             </div>
                                         </div>
@@ -153,7 +161,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">{faqData.title}</h2>
                             <p className="text-slate-600 text-lg">{faqData.subtitle}</p>
                         </div>
-                        
+
                         <div className="space-y-6">
                             {faqData.questions.map((item: any, index: number) => (
                                 <div key={index} className="bg-slate-50 rounded-2xl p-6 md:p-8 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">

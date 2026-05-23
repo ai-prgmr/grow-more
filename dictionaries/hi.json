@@ -16,6 +16,7 @@
             "title": "प्रीमियम कृषि उर्वरक और समाधान",
             "description": "ग्रो-मोर भारतीय किसानों के लिए उच्च गुणवत्ता वाले ह्यूमिक एसिड, प्लांट ग्रोथ प्रमोटर्स और कृषि समाधान प्रदान करता है। बेहतर फसल स्वास्थ्य के लिए शोध-आधारित सूत्र।"
         },
+        "h1_text": "अच्छी फसल, खुशहाल किसान…",
         "hero_slides": [
             {
                 "title": "अपनी उपज अधिकतम करें",
@@ -116,12 +117,6 @@
                         "name": "ह्यूमी ज़ोन प्लस ह्यूमिक एसिड पाउडर",
                         "desc": "अधिकतम पोषक तत्वों के अवशोषण के लिए उन्नत फार्मूला।",
                         "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
-                    },
-                    {
-                        "id": "unizyme",
-                        "name": "यूनीज़िम प्लांट हार्मोन्स",
-                        "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।",
-                        "image": "/grow-more/images/bottles/new/unizyme.jpeg"
                     }
                 ]
             },
@@ -155,6 +150,18 @@
                         "name": "अल्टी-मैक्स बायो क्रॉप प्रोटेक्टेंट",
                         "desc": "दोहरी कार्रवाई वाला प्लांट ग्रोथ प्रमोटर और रक्षक।",
                         "image": "/grow-more/images/bottles/new/UltiMax.jpeg"
+                    },
+                    {
+                        "id": "jeelato",
+                        "name": "Bio 3G premium",
+                        "desc": "पौध विकास प्रमोटर और बायो-प्रोटेक्टेंट की जटिल क्रिया।",
+                        "image": "/grow-more/images/bottles/new/jeelato-3g Background Removed.png"
+                    },
+                    {
+                        "id": "bio-3g-combo-special",
+                        "name": "Bio 3G combo special",
+                        "desc": "Bio 3g Combo Special",
+                        "image": "/grow-more/images/bottles/new/bio-3g-combo.png"
                     }
                 ]
             },
@@ -174,7 +181,7 @@
             },
             {
                 "id": "soil",
-                "title": "मृदा कंडीशनर",
+                "title": "मृदा कंडीशनर ग्रेन्यूल्स",
                 "description": "मिट्टी की संरचना और उर्वरता में सुधार करें।",
                 "items": [
                     {
@@ -183,6 +190,18 @@
                         "desc": "मिट्टी को आवश्यक सूक्ष्म पोषक तत्वों से समृद्ध करता है।",
                         "featured": true,
                         "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
+                    },
+                    {
+                        "id": "zenstar",
+                        "name": "ZenStar",
+                        "desc": "Zenstar एक प्रीमियम उत्पाद है",
+                        "image": "/grow-more/images/bottles/new/zenstar-background-removed.png"
+                    },
+                    {
+                        "id": "unizyme",
+                        "name": "यूनीज़िम प्लांट हार्मोन्स",
+                        "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।",
+                        "image": "/grow-more/images/bottles/new/unizyme.jpeg"
                     }
                 ]
             },

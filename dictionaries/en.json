@@ -22,6 +22,7 @@
       "title": "Premium Agricultural Fertilizers & Solutions",
       "description": "GrowMore provides high-quality Humic Acid, Plant Growth Promoters, and agricultural solutions for Indian farmers. Research-backed formulas for better crop health."
     },
+    "h1_text": "Nurturing Crops. Empowering Farmers.",
     "hero_slides": [
       {
         "title": "Maximize Your Yield",
@@ -116,12 +117,6 @@
             "name": "Humi Zone Plus Humic Acid Powder",
             "desc": "Advanced formula for maximum nutrient absorption.",
             "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
-          },
-          {
-            "id": "unizyme",
-            "name": "Unizyme Plant Hormones",
-            "desc": "Agricultural fertilizer for robust plant health.",
-            "image": "/grow-more/images/bottles/new/unizyme.jpeg"
           }
         ]
       },
@@ -132,29 +127,41 @@
         "items": [
           {
             "id": "grow-fast",
-            "name": "Grow Fast Plant Growth Promoter",
+            "name": "Grow Fast",
             "desc": "Accelerates vegetative growth in all crops.",
             "featured": true,
             "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
           },
           {
             "id": "super-killer",
-            "name": "Super Killer Bio Crop Protectant",
+            "name": "Super Killer",
             "desc": "Dual action plant growth promoter and protectant.",
             "image": "/grow-more/images/bottles/super-killer-no-bg.png"
           },
           {
             "id": "ultima",
-            "name": "Grow Fast Plant Growth Promoter",
+            "name": "Ultima",
             "desc": "Accelerates vegetative growth in all crops.",
             "featured": true,
             "image": "/grow-more/images/bottles/new/Ultima.jpeg"
           },
           {
             "id": "ulti-max",
-            "name": "Super Killer Bio Crop Protectant",
+            "name": "UltiMAX",
             "desc": "Dual action plant growth promoter and protectant.",
             "image": "/grow-more/images/bottles/new/UltiMax.jpeg"
+          },
+          {
+            "id": "bio-3g-premium",
+            "name": "Bio-3G Premium",
+            "desc": "Complex action of Plant Growth Promoter & Bio-Protectant.",
+            "image": "/grow-more/images/bottles/new/jeelato-3g Background Removed.png"
+          },
+          {
+            "id": "bio-3g-combo-special",
+            "name": "Bio-3G Combo Special",
+            "desc": "Bio 3g Combo Special",
+            "image": "/grow-more/images/bottles/new/bio-3g-combo.png"
           }
         ]
       },
@@ -174,7 +181,7 @@
       },
       {
         "id": "soil",
-        "title": "Soil Conditioner",
+        "title": "Soil Conditioner Granules",
         "description": "Improve soil structure and fertility.",
         "items": [
           {
@@ -183,6 +190,18 @@
             "desc": "Enriches soil with essential micro-nutrients.",
             "featured": true,
             "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
+          },
+          {
+            "id": "zenstar",
+            "name": "ZenStar",
+            "desc": "Zenstar a premium product",
+            "image": "/grow-more/images/bottles/new/zenstar-background-removed.png"
+          },
+          {
+            "id": "unizyme",
+            "name": "Unizyme Plant Hormones",
+            "desc": "Agricultural fertilizer for robust plant health.",
+            "image": "/grow-more/images/bottles/new/unizyme.jpeg"
           }
         ]
       },
