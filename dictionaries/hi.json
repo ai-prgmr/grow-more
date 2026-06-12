@@ -226,7 +226,8 @@
                     {
                         "id": "grow-wet",
                         "name": "ग्रो वेट सिलिकॉन वेटिंग एजेंट",
-                        "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।"
+                        "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।",
+                        "image": "/grow-more/images/bottles/silicone-spreader.png"
                     }
                 ]
             }
