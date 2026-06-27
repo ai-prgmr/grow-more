@@ -16,9 +16,16 @@ export default function Header({ lang, dict }: { lang: string, dict: any }) {
 
     return (
         <header className="border-b bg-[#f7fffa] backdrop-blur-md sticky top-0 z-50">
-            <div className="container mx-auto h-20 flex items-center justify-between">
+            <div className="container mx-auto px-4 h-20 flex items-center justify-between">
                 <Link href={`/${lang}`} className="text-2xl font-bold text-green-700 tracking-light">
-                    <Image src="/grow-more/images/logo-removebg.png" alt="grow more logo" width={200} height={200} />
+                    <Image
+                        src="/grow-more/images/logo-removebg.png"
+                        alt="grow more logo"
+                        width={200}
+                        height={50}
+                        className="w-36 md:w-48 h-auto object-contain"
+                        priority
+                    />
                 </Link>
 
                 {/* Desktop Nav */}

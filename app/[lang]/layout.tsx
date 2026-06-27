@@ -81,7 +81,7 @@ export default async function RootLayout({
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />
-                <div className="flex flex-col min-h-screen">
+                <div className="flex flex-col min-h-screen overflow-x-hidden">
                     <Header lang={lang} dict={dict} />
                     <main className="grow">{children}</main>
                     <Footer lang={lang} dict={dict} />
