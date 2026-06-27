@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     }
 }
 
-const WA_NUMBER = "917247077028"
+const WA_NUMBER = "+917247077028"
 
 export default async function ContactPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params
