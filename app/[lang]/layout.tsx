@@ -85,7 +85,7 @@ export default async function RootLayout({
                     <Header lang={lang} dict={dict} />
                     <main className="grow">{children}</main>
                     <Footer lang={lang} dict={dict} />
-                    <WhatsAppButton />
+                    <WhatsAppButton dict={dict} />
                 </div>
             </body>
         </html>

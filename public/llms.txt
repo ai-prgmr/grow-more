@@ -1,0 +1,30 @@
+# GrowMore Agri Science
+
+> GrowMore Agri Science is a premium manufacturer of high-quality agricultural solutions, including Humic Acid fertilizers, plant growth promoters, bio-safe crop protectants, and soil conditioners formulated to maximize crop yield and empower Indian farmers.
+
+## Core Navigation
+
+- [English Homepage](https://growmoreagriscience.com/grow-more/en): Main landing page detailing our agricultural solutions, features, and FAQs.
+- [Hindi Homepage (होमपेज)](https://growmoreagriscience.com/grow-more/hi): मुख्य लैंडिंग पेज जो ग्रो-मोर के कृषि समाधानों, विशिष्टताओं और सामान्य प्रश्नों को हिंदी में दर्शाता है.
+- [English Products](https://growmoreagriscience.com/grow-more/en/products): Explore our range of premium products like Humi Zone, Grow Fast, and Killer Bio.
+- [Hindi Products (उत्पाद)](https://growmoreagriscience.com/grow-more/hi/products): हमारे जैविक उर्वरकों, विकास वर्धकों और कीट रक्षकों की विस्तृत सूची.
+- [English About Us](https://growmoreagriscience.com/grow-more/en/about): Our history, values, performance stats, and founders.
+- [Hindi About Us (हमारे बारे में)](https://growmoreagriscience.com/grow-more/hi/about): ग्रो-मोर की यात्रा, मूल सिद्धांत, सफलता के आंकड़े और संस्थापक मंडल.
+- [English Distributors](https://growmoreagriscience.com/grow-more/en/distributor): Information and forms to join our network of 200+ dealers.
+- [Hindi Distributors (वितरक)](https://growmoreagriscience.com/grow-more/hi/distributor): हमारे बढ़ते डीलर नेटवर्क से जुड़ने के लिए आवेदन और विवरण.
+- [English Contact Us](https://growmoreagriscience.com/grow-more/en/contact): Helpdesk numbers, factory coordinates, and email contact information.
+- [Hindi Contact Us (संपर्क करें)](https://growmoreagriscience.com/grow-more/hi/contact): किसान हेल्पलाइन, सेल्स सपोर्ट, कार्यालय और व्हाट्सएप संपर्क विवरण.
+
+## Core Product Categories
+
+- **Plant Growth Promoters**: Grow Fast, Ultima, UltiMAX, Humi Zone Humic Acid (Liquid/Powder) - Accelerate vegetative growth, crop yield, and root development.
+- **Flowering Stimulants**: G Flower - Formulated to prevent flower drop and ensure profuse flowering.
+- **Soil Conditioners**: Grow Star Granules, ZenStar, Unizyme - Enrich soil health and optimize nutrient absorption.
+- **Bio Crop Protectants**: Killer Bio, Super Killer, Bio-3G Combo - Organic, bio-safe pest and insect control solutions.
+- **Silicone Spreaders**: Grow Wet - Wetting and spreading agent to maximize the efficiency of agricultural sprays.
+
+## Key Contact & Locations
+
+- **Farmer Helpline & Sales Inquiry**: +917247077028 (WhatsApp support available at the same number)
+- **Corporate Address**: 18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001, India
+- **Email**: growmoreagriscience@gmail.com

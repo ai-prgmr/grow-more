@@ -120,11 +120,11 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                                         </div>
 
                                         {/* Text & Action Section */}
-                                        <div className="p-6 flex flex-col flex-grow">
+                                        <div className="p-6 flex flex-col grow">
                                             <h3 className="text-xl font-bold text-slate-800 group-hover:text-green-700 transition-colors duration-300 mb-2 line-clamp-2 min-h-[3.5rem] flex items-center">
                                                 {item.name}
                                             </h3>
-                                            <p className="text-sm text-slate-500 leading-relaxed mb-6 flex-grow line-clamp-3">
+                                            <p className="text-sm text-slate-500 leading-relaxed mb-6 grow">
                                                 {item.desc}
                                             </p>
 

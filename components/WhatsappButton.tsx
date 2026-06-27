@@ -1,16 +1,14 @@
-"use client";
+
 import Image from "next/image";
-import { getDictionary } from "@/lib/dictionary"
 
 
-const WhatsAppButton: React.FC = () => {
-    const whatsappNumber = "+7247077028";
-    const whatsappMessage = ""
+export default async function WhatsAppButton({ dict }: { dict: any }) {
+
+    const whatsappNumber = "917247077028";
+    const whatsappMessage = encodeURIComponent(dict.home?.whatsapp?.msg || "");
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
-    // const { lang } = await params
-    // const dict = await getDictionary(lang as "en" | "hi")
-    // const { contact } = dict
+
 
     return (
         <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center">
@@ -33,4 +31,3 @@ const WhatsAppButton: React.FC = () => {
         </div>
     );
 };
-export default WhatsAppButton;

@@ -28,10 +28,10 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
                 <div>
                     <h4 className="font-semibold text-white mb-4">Contact</h4>
                     <p className="text-sm text-slate-400 leading-relaxed">
-                        <strong>Email:</strong>growmoreagriscience@gmail.com<br />
-                        <strong>Phone:</strong> +917247077028<br />
-                        <strong>Address:</strong>18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001 INDIA
-                        <strong>Address-2</strong>18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001 INDIA
+                        Email:&nbsp;<b><a href="mailto:growmoreagriscience@gmail.com">growmoreagriscience@gmail.com</a></b><br />
+                        Phone:&nbsp;<b><a href="tel:+917247077028">+917247077028</a></b>  <br />
+                        Address:&nbsp;<b>18-B, MPIDC, Kalasura Road,<br /> Bijepur, M.P. 453001 INDIA</b><br />
+                        Address:&nbsp;<b>Shrinathgadh, Gondal,<br /> Rajkot, Gujarat 360330 INDIA</b>
                     </p>
                 </div>
             </div>
@@ -43,11 +43,6 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
                         <span className="text-lg leading-none select-none" role="img" aria-label="India Flag">🇮🇳</span>
                         <span className="font-semibold text-slate-300 text-xs tracking-widest uppercase">Proudly Make In India</span>
                     </div>
-                </div>
-                <div className="flex gap-6">
-                    <Link href="#" className="hover:text-green-400 transition-colors">Facebook</Link>
-                    <Link href="#" className="hover:text-green-400 transition-colors">Twitter</Link>
-                    <Link href="#" className="hover:text-green-400 transition-colors">Instagram</Link>
                 </div>
             </div>
         </footer>
