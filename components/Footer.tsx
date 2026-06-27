@@ -44,6 +44,9 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
                         <span className="font-semibold text-slate-300 text-xs tracking-widest uppercase">Proudly Make In India</span>
                     </div>
                 </div>
+                <div className="text-xs text-slate-500 hover:text-slate-400 transition-colors">
+                    Developed by : <a href="https://aiprgmr.in" target="_blank" rel="noopener noreferrer" className="text-green-500/80 hover:text-green-400 transition-colors font-medium">AI PRGMR</a>
+                </div>
             </div>
         </footer>
     )
