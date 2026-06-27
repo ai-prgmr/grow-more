@@ -63,7 +63,7 @@ export default async function RootLayout({
         '@type': 'Organization',
         'name': 'GrowMore Agri Science',
         'url': baseUrl,
-        'logo': `${baseUrl}/logo.png`,
+        'logo': `${baseUrl}/images/logo-removedbg.png`,
         'contactPoint': {
             '@type': 'ContactPoint',
             'telephone': '+91-7247077028',

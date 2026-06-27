@@ -103,7 +103,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                                         className="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full"
                                     >
                                         {/* Image Section */}
-                                        <div className="aspect-[3/4] w-full relative overflow-hidden bg-slate-50/50 border-b border-slate-100/50 flex items-center justify-center p-6 group-hover:bg-slate-100/50 transition-colors duration-300">
+                                        <div className="aspect-3/4 w-full relative overflow-hidden bg-slate-50/50 border-b border-slate-100/50 flex items-center justify-center p-6 group-hover:bg-slate-100/50 transition-colors duration-300">
                                             {item.image ? (
                                                 <Image
                                                     src={item.image}
@@ -121,7 +121,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
 
                                         {/* Text & Action Section */}
                                         <div className="p-6 flex flex-col grow">
-                                            <h3 className="text-xl font-bold text-slate-800 group-hover:text-green-700 transition-colors duration-300 mb-2 line-clamp-2 min-h-[3.5rem] flex items-center">
+                                            <h3 className="text-xl font-bold text-slate-800 group-hover:text-green-700 transition-colors duration-300 mb-2 line-clamp-2 min-h-14 flex items-center">
                                                 {item.name}
                                             </h3>
                                             <p className="text-sm text-slate-500 leading-relaxed mb-6 grow">

@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Metadata } from "next"
 import Image from "next/image"
 import Script from "next/script"
+import DistributorForm from "@/components/DistributorForm"
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
@@ -85,75 +86,7 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
                     <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-100 grid md:grid-cols-2">
                         {/* Option 1: Form */}
                         <div className="p-8 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-slate-100">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-3">
-                                <Send className="h-6 w-6 text-green-600" />
-                                {distributors_page.join.form.title}
-                            </h3>
-                            <form className="space-y-6">
-                                <div className="space-y-2">
-                                    <label htmlFor="name" className="text-sm font-semibold text-slate-700 block">
-                                        {distributors_page.join.form.name_label}
-                                    </label>
-                                    <input
-                                        id="name"
-                                        type="text"
-                                        required
-                                        placeholder={distributors_page.join.form.name_placeholder}
-                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label htmlFor="company_name" className="text-sm font-semibold text-slate-700 block">
-                                        {distributors_page.join.form.company_label}
-                                    </label>
-                                    <input
-                                        id="company_name"
-                                        type="text"
-                                        required
-                                        placeholder={distributors_page.join.form.company_placeholder}
-                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label htmlFor="phone" className="text-sm font-semibold text-slate-700 block">
-                                        {distributors_page.join.form.phone_label}
-                                    </label>
-                                    <input
-                                        id="phone"
-                                        type="tel"
-                                        required
-                                        placeholder={distributors_page.join.form.phone_placeholder}
-                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label htmlFor="city" className="text-sm font-semibold text-slate-700 block">
-                                        {distributors_page.join.form.city_label}
-                                    </label>
-                                    <input
-                                        id="city"
-                                        type="text"
-                                        required
-                                        placeholder={distributors_page.join.form.city_placeholder}
-                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label htmlFor="city" className="text-sm font-semibold text-slate-700 block">
-                                        {distributors_page.join.form.district_label}
-                                    </label>
-                                    <input
-                                        id="city"
-                                        type="text"
-                                        required
-                                        placeholder={distributors_page.join.form.district_placeholder}
-                                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
-                                <Button type="button" size="lg" className="w-full bg-green-700 hover:bg-green-800 text-white shadow-lg shadow-green-700/20 py-6 text-lg rounded-xl mt-4">
-                                    {distributors_page.join.form.submit_btn}
-                                </Button>
-                            </form>
+                            <DistributorForm dict={dict} lang={lang} />
                         </div>
 
                         {/* Option 2: WhatsApp */}

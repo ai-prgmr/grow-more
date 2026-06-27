@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Metadata } from "next"
 import Script from "next/script"
+import ContactForm from "@/components/ContactForm"
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
@@ -70,6 +71,13 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                 </div>
             </section>
 
+            {/* Contact Form Section */}
+            <section className="py-16 bg-white border-t border-slate-100">
+                <div className="container mx-auto px-4 max-w-3xl">
+                    <ContactForm dict={dict} lang={lang} />
+                </div>
+            </section>
+
             {/* Locations Section with Maps */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-4">
@@ -125,15 +133,15 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'LocalBusiness',
-                            'name': 'GrowMore',
-                            'image': 'https://www.growmore.in/og-image.jpg',
+                            'name': 'GrowMore Agri Science',
+                            'image': 'https://www.growmoreagriscience.com/images/logo-removedbg.png',
                             'telephone': '+91-7247077028',
                             'email': 'growmoreagrisciences@gmail.com',
                             'address': [
                                 {
                                     '@type': 'PostalAddress',
                                     'streetAddress': contact.locations.factory.address,
-                                    'addressLocality': 'Kalasura',
+                                    'addressLocality': 'MPIDC Kalasura',
                                     'addressRegion': 'MP',
                                     'addressCountry': 'IN'
                                 }

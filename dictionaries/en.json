@@ -356,6 +356,19 @@
       "whatsapp_btn": "Chat on WhatsApp",
       "whatsapp_msg": "Hello, I am interested in becoming a distributor. Please share more details.",
       "phone": "+917247077028"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name_label": "Your Name",
+      "name_placeholder": "Enter your full name",
+      "phone_label": "Phone Number",
+      "phone_placeholder": "Enter your phone number",
+      "email_label": "Email Address",
+      "email_placeholder": "Enter your email address",
+      "message_label": "Your Message",
+      "message_placeholder": "Describe your query or requirement...",
+      "submit_btn": "Send Message",
+      "success_msg": "Thank you! Your message has been sent successfully. We will get back to you shortly."
     }
   },
   "distributors_page": {
