@@ -1,8 +1,8 @@
 {
   "site": {
-    "name": "GrowMore",
+    "name": "GrowMore Agri Science",
     "description": "Premium Agricultural Solutions - Fertilizers, Pesticides & Plant Growth Promoters",
-    "url": "https://www.growmore.in"
+    "url": "https://growmoreagriscience.com"
   },
   "navigation": {
     "home": "Home",
@@ -67,20 +67,23 @@
       "cta_call": "Call Now",
       "cta_wa": "WhatsApp"
     },
+    "whatsapp": {
+      "msg": "Hello! Lets talk about your products"
+    },
     "faq": {
       "title": "Frequently Asked Questions",
       "subtitle": "Quick answers about our premium agricultural solutions.",
       "questions": [
         {
-          "q": "What is GrowMore?",
-          "a": "GrowMore is a leading manufacturer of premium agricultural solutions, including Humic Acid, Plant Growth Promoters, and bio-safe pesticides specifically formulated for Indian farmers."
+          "q": "What is GrowMore Agri Science?",
+          "a": "GrowMore Agri Science is a leading manufacturer of premium agricultural solutions, including Humic Acid, Plant Growth Promoters, and bio-safe pesticides specifically formulated for Indian farmers."
         },
         {
-          "q": "What agricultural products does GrowMore manufacture?",
+          "q": "What agricultural products does GrowMore Agri Science manufacture?",
           "a": "We manufacture high-quality agricultural fertilizers like Humi Zone, plant growth promoters like Grow Fast, flowering stimulants, soil conditioners, organic pesticides, and silicone spreaders."
         },
         {
-          "q": "How can I become a GrowMore distributor in India?",
+          "q": "How can I become a GrowMore Agri Science distributor in India?",
           "a": "You can easily join our network of 200+ successful dealers across India. Simply contact our sales team via phone or WhatsApp on our Distributors page to apply."
         }
       ]
@@ -89,21 +92,41 @@
   "products": {
     "metadata": {
       "title": "Agricultural Products | Fertilizers & Crop Protection",
-      "description": "Explore GrowMore's range of premium products including Humi Zone, Unizyme, and bio-safe pesticides. Advanced solutions for every crop and soil type."
+      "description": "Explore GrowMore Agri Science's range of premium products including Humi Zone, Unizyme, and bio-safe pesticides. Advanced solutions for every crop and soil type."
     },
     "title": "Our Products",
     "subtitle": "Explore our complete range of agricultural solutions",
     "categories": [
       {
-        "id": "fertilizers",
-        "title": "Organic Fertilizer/Manures",
-        "description": "Leading Manufacturer of Humi Zone Humic Acid Liquid, Humi Zone Red Powder, and Unizyme Plant Hormones.",
+        "id": "plant-growth-promoter",
+        "title": "Plant Growth Promoter",
+        "description": "Boost crop yield and immunity with our advanced promoters.",
         "items": [
+          {
+            "id": "grow-fast",
+            "name": "Grow Fast",
+            "desc": "Accelerates vegetative growth in all crops.",
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
+          },
+          {
+            "id": "ultima",
+            "name": "Ultima",
+            "desc": "Accelerates vegetative growth in all crops.",
+            "image": "/grow-more/images/bottles/new/Ultima.jpeg"
+          },
+          {
+            "id": "ulti-max",
+            "name": "UltiMAX",
+            "desc": "Dual action plant growth promoter and protectant.",
+            "image": "/grow-more/images/bottles/new/UltiMax.jpeg",
+            "featured": true
+          },
           {
             "id": "humi-liquid",
             "name": "Humi Zone Humic Acid Liquid",
             "desc": "Premium liquid humic acid for soil conditioning.",
-            "featured": true,
+            "featured": false,
             "image": "/grow-more/images/bottles/new/Humi-Zone.jpeg"
           },
           {
@@ -121,52 +144,7 @@
         ]
       },
       {
-        "id": "plant-growth-promoter",
-        "title": "Plant Growth Promoter",
-        "description": "Boost crop yield and immunity with our advanced promoters.",
-        "items": [
-          {
-            "id": "grow-fast",
-            "name": "Grow Fast",
-            "desc": "Accelerates vegetative growth in all crops.",
-            "featured": true,
-            "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
-          },
-          {
-            "id": "super-killer",
-            "name": "Super Killer",
-            "desc": "Dual action plant growth promoter and protectant.",
-            "image": "/grow-more/images/bottles/super-killer-no-bg.png"
-          },
-          {
-            "id": "ultima",
-            "name": "Ultima",
-            "desc": "Accelerates vegetative growth in all crops.",
-            "featured": true,
-            "image": "/grow-more/images/bottles/new/Ultima.jpeg"
-          },
-          {
-            "id": "ulti-max",
-            "name": "UltiMAX",
-            "desc": "Dual action plant growth promoter and protectant.",
-            "image": "/grow-more/images/bottles/new/UltiMax.jpeg"
-          },
-          {
-            "id": "bio-3g-premium",
-            "name": "Bio-3G Premium",
-            "desc": "Complex action of Plant Growth Promoter & Bio-Protectant.",
-            "image": "/grow-more/images/bottles/new/jeelato-3g Background Removed.png"
-          },
-          {
-            "id": "bio-3g-combo-special",
-            "name": "Bio-3G Combo Special",
-            "desc": "Bio 3g Combo Special",
-            "image": "/grow-more/images/bottles/new/bio-3g-combo.png"
-          }
-        ]
-      },
-      {
-        "id": "flowering",
+        "id": "flowering-stimulant",
         "title": "Flowering Stimulant",
         "description": "Specialized solutions to prevent flower drop and increase fruit setting.",
         "items": [
@@ -181,21 +159,21 @@
       },
       {
         "id": "soil",
-        "title": "Soil Conditioner Granules",
+        "title": "Soil Conditioner Granules and Organic Fertilizers",
         "description": "Improve soil structure and fertility.",
         "items": [
           {
             "id": "grow-star",
             "name": "Grow Star Granules Soil Conditioner",
             "desc": "Enriches soil with essential micro-nutrients.",
-            "featured": true,
             "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
           },
           {
             "id": "zenstar",
             "name": "ZenStar",
             "desc": "Zenstar a premium product",
-            "image": "/grow-more/images/bottles/new/zenstar-background-removed.png"
+            "featured": true,
+            "image": "/grow-more/images/bottles/new/zenstar-granules.png"
           },
           {
             "id": "unizyme",
@@ -206,15 +184,29 @@
         ]
       },
       {
-        "id": "pesticides",
-        "title": "Agricultural Bio Pesticides",
+        "id": "biocrop-protector",
+        "title": "Agricultural Bio Crop Protector",
         "description": "Effective control against harmful pests.",
         "items": [
           {
             "id": "killer-bio",
-            "name": "Killer Bio Crop Protectant Pesticides",
+            "name": "Killer Bio Crop Protector",
             "desc": "Organic solution for pest management.",
-            "image": "/grow-more/images/bottles/Killer-no-bg.png"
+            "image": "/grow-more/images/bottles/Killer-no-bg.png",
+            "featured": true
+          },
+          {
+            "id": "super-killer",
+            "name": "Super Killer",
+            "desc": "Dual action plant growth promoter and protectant.",
+            "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+          },
+          {
+            "id": "bio-3g-combo-special",
+            "name": "Bio-3G Combo Special",
+            "desc": "Bio 3g Combo Special",
+            "image": "/grow-more/images/bottles/new/bio-3g-combo.png",
+            "featured": true
           }
         ]
       },
@@ -227,7 +219,8 @@
             "id": "grow-wet",
             "name": "Grow Wet Silicone Wetting & Spreading Agent",
             "desc": "Superior spreading and wetting agent.",
-            "image": "/grow-more/images/bottles/new/silicone-spreader.png"
+            "image": "/grow-more/images/bottles/new/silicone-spreader.png",
+            "featured": true
           }
         ]
       }
@@ -420,7 +413,7 @@
       "whatsapp": {
         "title": "Or Message Us",
         "btn_text": "Chat on WhatsApp",
-        "message": "Hello, I want to become a distributor for GrowMore. Please share details.",
+        "message": "Hello, I want to become a distributor for GrowMore Agri Science. Please share details.",
         "phone": "+917247077028"
       }
     },

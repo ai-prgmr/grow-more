@@ -6,13 +6,14 @@ import { getDictionary } from '@/lib/dictionary'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Script from 'next/script'
+import WhatsAppButton from '@/components/WhatsappButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
-    const baseUrl = 'https://www.growmore.in'
+    const baseUrl = 'https://growmoreagriscience.com'
 
     return {
         metadataBase: new URL(baseUrl),
@@ -55,17 +56,17 @@ export default async function RootLayout({
 }) {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
-    const baseUrl = 'https://www.growmore.in'
+    const baseUrl = 'https://growmoreagriscience.com'
 
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        'name': 'GrowMore',
+        'name': 'GrowMore Agri Science',
         'url': baseUrl,
         'logo': `${baseUrl}/logo.png`,
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-9999999999',
+            'telephone': '+91-7247077028',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': ['English', 'Hindi']
@@ -84,6 +85,7 @@ export default async function RootLayout({
                     <Header lang={lang} dict={dict} />
                     <main className="grow">{children}</main>
                     <Footer lang={lang} dict={dict} />
+                    <WhatsAppButton />
                 </div>
             </body>
         </html>

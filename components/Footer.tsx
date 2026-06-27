@@ -31,6 +31,7 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
                         <strong>Email:</strong>growmoreagriscience@gmail.com<br />
                         <strong>Phone:</strong> +917247077028<br />
                         <strong>Address:</strong>18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001 INDIA
+                        <strong>Address-2</strong>18-B, MPIDC, Kalasura Road, Bijepur, M.P. 453001 INDIA
                     </p>
                 </div>
             </div>

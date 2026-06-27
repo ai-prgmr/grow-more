@@ -128,8 +128,15 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                                                 {item.desc}
                                             </p>
 
-                                            <div className="pt-4 border-t border-slate-100 mt-auto">
-                                                <Button asChild className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-xl transition-all shadow-sm hover:shadow-md">
+                                            <div className="pt-4 w-full h-full flex flex-row gap-2 justify-center items-center border-slate-100 mt-auto">
+                                                <Image
+                                                    src="/grow-more/images/Digital_Glyph_Green.svg"
+                                                    alt="WhatsApp Icon"
+                                                    width={20}
+                                                    height={20}
+                                                    className="text-white"
+                                                />
+                                                <Button asChild className="bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-xl transition-all shadow-sm hover:shadow-md">
                                                     <Link
                                                         href={`https://wa.me/917247077028?text=${encodeURIComponent(
                                                             lang === 'hi'
@@ -139,7 +146,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                     >
-                                                        Connect with Us
+                                                        Connect with us
                                                     </Link>
                                                 </Button>
                                             </div>

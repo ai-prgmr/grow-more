@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     }
 }
 
-const WA_NUMBER = "917974889472" // Placeholder number for now
+const WA_NUMBER = "917247077028"
 
 export default async function ContactPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params
@@ -59,7 +59,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                                             {index === 2 ? (
                                                 <Link href={`mailto:${card.info}`}>{card.action}</Link>
                                             ) : (
-                                                <Link href={`tel:${card.phone.replace(/[^0-9]/g, '')}`}>{card.action}</Link>
+                                                <Link href={`tel:${card.phone.replace(/[^0-9 +]/g, '')}`}>{card.action}</Link>
                                             )}
                                         </Button>
                                     </div>
@@ -127,8 +127,8 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                             '@type': 'LocalBusiness',
                             'name': 'GrowMore',
                             'image': 'https://www.growmore.in/og-image.jpg',
-                            'telephone': '+91-9999999999',
-                            'email': 'growmore@growmore.in',
+                            'telephone': '+91-7247077028',
+                            'email': 'growmoreagrisciences@gmail.com',
                             'address': [
                                 {
                                     '@type': 'PostalAddress',
