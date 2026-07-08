@@ -9,32 +9,84 @@ import { HelpCircle } from 'lucide-react'
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.products.metadata.title,
         description: dict.products.metadata.description,
+        alternates: {
+            canonical: `/${lang}/products`,
+            languages: {
+                'en': `/en/products`,
+                'hi': `/hi/products`,
+                'x-default': `/en/products`,
+            },
+        },
+        openGraph: {
+            title: dict.products.metadata.title,
+            description: dict.products.metadata.description,
+            url: `/${lang}/products`,
+            images: [
+                {
+                    url: `/images/lush-green.jpg`,
+                    width: 1200,
+                    height: 630,
+                    alt: dict.products.metadata.title,
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.products.metadata.title,
+            description: dict.products.metadata.description,
+            site: '@growmoreagri',
+            images: [`/images/lush-green.jpg`],
+        },
     }
 }
 
 export default async function ProductsPage({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
 
     // Generate JSON-LD for products
     const allProducts = dict.products.categories.flatMap((cat: any) =>
-        cat.items.map((item: any, index: number) => ({
-            '@type': 'ListItem',
-            'position': index + 1,
-            'item': {
-                '@type': 'Product',
-                'name': item.name,
-                'description': item.desc,
-                'image': item.image,
-                'brand': {
-                    '@type': 'Brand',
-                    'name': 'GrowMore'
+        cat.items.map((item: any, index: number) => {
+            const imageUrl = item.image 
+                ? (item.image.startsWith('http') ? item.image : `${baseUrl}${item.image}`)
+                : `${baseUrl}/images/logo-removedbg.png`
+
+            return {
+                '@type': 'ListItem',
+                'position': index + 1,
+                'item': {
+                    '@type': 'Product',
+                    'name': item.name,
+                    'description': item.desc,
+                    'image': imageUrl,
+                    'url': `${baseUrl}/${lang}/products`,
+                    'category': cat.title,
+                    'brand': {
+                        '@type': 'Brand',
+                        'name': 'GrowMore Agri Science'
+                    },
+                    'offers': {
+                        '@type': 'AggregateOffer',
+                        'priceCurrency': 'INR',
+                        'offers': [
+                            {
+                                '@type': 'Offer',
+                                'availability': 'https://schema.org/InStock',
+                                'priceSpecification': {
+                                    '@type': 'PriceSpecification',
+                                    'valueAddedTaxIncluded': true
+                                }
+                            }
+                        ]
+                    }
                 }
             }
-        }))
+        })
     )
 
     const jsonLd = {

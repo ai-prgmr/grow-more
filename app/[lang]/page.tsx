@@ -10,9 +10,38 @@ import Image from 'next/image'
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.home.metadata.title,
-        description: dict.home.metadata.description
+        description: dict.home.metadata.description,
+        alternates: {
+            canonical: `/${lang}`,
+            languages: {
+                'en': '/en',
+                'hi': '/hi',
+                'x-default': '/en',
+            },
+        },
+        openGraph: {
+            title: dict.home.metadata.title,
+            description: dict.home.metadata.description,
+            url: `/${lang}`,
+            images: [
+                {
+                    url: `/images/logo-removebg.png`,
+                    width: 500,
+                    height: 500,
+                    alt: dict.home.metadata.title,
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.home.metadata.title,
+            description: dict.home.metadata.description,
+            site: '@growmoreagri',
+            images: [`/images/logo-removebg.png`],
+        },
     }
 }
 
@@ -44,6 +73,16 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
     const faqData = home.faq || { title: "Frequently Asked Questions", subtitle: "Answers about our products.", questions: [] }
 
     // AEO (Answer Engine Optimization) Structured Data
+    const baseUrl = 'https://growmoreagriscience.com'
+    const webSiteJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        'name': 'GrowMore Agri Science',
+        'url': `${baseUrl}/${lang}`,
+        'description': dict.site.description,
+        'inLanguage': lang
+    }
+
     const faqJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -59,6 +98,11 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
 
     return (
         <div className="flex flex-col w-full">
+            <Script
+                id="website-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
+            />
             <Script
                 id="faq-schema"
                 type="application/ld+json"

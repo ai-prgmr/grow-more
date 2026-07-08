@@ -9,9 +9,38 @@ import ContactForm from "@/components/ContactForm"
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.contact.metadata.title,
         description: dict.contact.metadata.description,
+        alternates: {
+            canonical: `/${lang}/contact`,
+            languages: {
+                'en': `/en/contact`,
+                'hi': `/hi/contact`,
+                'x-default': `/en/contact`,
+            },
+        },
+        openGraph: {
+            title: dict.contact.metadata.title,
+            description: dict.contact.metadata.description,
+            url: `/${lang}/contact`,
+            images: [
+                {
+                    url: `/images/logo-removebg.png`,
+                    width: 500,
+                    height: 500,
+                    alt: dict.contact.metadata.title,
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.contact.metadata.title,
+            description: dict.contact.metadata.description,
+            site: '@growmoreagri',
+            images: [`/images/logo-removebg.png`],
+        },
     }
 }
 
@@ -134,17 +163,21 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                             '@context': 'https://schema.org',
                             '@type': 'LocalBusiness',
                             'name': 'GrowMore Agri Science',
-                            'image': 'https://www.growmoreagriscience.com/images/logo-removedbg.png',
+                            'image': 'https://growmoreagriscience.com/images/logo-removedbg.png',
+                            'logo': 'https://growmoreagriscience.com/images/logo-removedbg.png',
+                            'url': 'https://growmoreagriscience.com',
                             'telephone': '+91-7247077028',
-                            'email': 'growmoreagrisciences@gmail.com',
-                            'address': [
-                                {
-                                    '@type': 'PostalAddress',
-                                    'streetAddress': contact.locations.factory.address,
-                                    'addressLocality': 'MPIDC Kalasura',
-                                    'addressRegion': 'MP',
-                                    'addressCountry': 'IN'
-                                }
+                            'email': 'growmoreagriscience@gmail.com',
+                            'priceRange': '$$',
+                            'address': {
+                                '@type': 'PostalAddress',
+                                'streetAddress': contact.locations.factory.address,
+                                'addressLocality': 'MPIDC Kalasura',
+                                'addressRegion': 'MP',
+                                'addressCountry': 'IN'
+                            },
+                            'sameAs': [
+                                'https://wa.me/917247077028'
                             ]
                         })
                     }}

@@ -10,9 +10,38 @@ import DistributorForm from "@/components/DistributorForm"
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.distributors_page.metadata.title,
         description: dict.distributors_page.metadata.description,
+        alternates: {
+            canonical: `/${lang}/distributor`,
+            languages: {
+                'en': `/en/distributor`,
+                'hi': `/hi/distributor`,
+                'x-default': `/en/distributor`,
+            },
+        },
+        openGraph: {
+            title: dict.distributors_page.metadata.title,
+            description: dict.distributors_page.metadata.description,
+            url: `/${lang}/distributor`,
+            images: [
+                {
+                    url: `/images/distributor-image.png`,
+                    width: 1200,
+                    height: 630,
+                    alt: dict.distributors_page.metadata.title,
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.distributors_page.metadata.title,
+            description: dict.distributors_page.metadata.description,
+            site: '@growmoreagri',
+            images: [`/images/distributor-image.png`],
+        },
     }
 }
 
@@ -36,12 +65,44 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
         }))
     }
 
+    const howToApplyJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        'name': lang === 'hi' ? 'ग्रो-मोर वितरक बनने की प्रक्रिया' : 'How to Become a GrowMore Distributor',
+        'description': lang === 'hi' ? 'ग्रो-मोर एग्री साइंस डीलर नेटवर्क से जुड़ने के सरल चरण।' : 'Simple steps to join the GrowMore Agri Science dealer network.',
+        'step': [
+            {
+                '@type': 'HowToStep',
+                'name': lang === 'hi' ? 'आवेदन भरें' : 'Submit Application Form',
+                'text': lang === 'hi' ? 'वितरक आवेदन फॉर्म में अपना विवरण भरें।' : 'Fill out the distributor application form with your business details.',
+                'url': `https://growmoreagriscience.com/${lang}/distributor`
+            },
+            {
+                '@type': 'HowToStep',
+                'name': lang === 'hi' ? 'दस्तावेज़ और विवरण सत्यापित करें' : 'Verify Business Profile',
+                'text': lang === 'hi' ? 'हमारी टीम आपकी प्रोफाइल और आवश्यकताओं की समीक्षा करेगी।' : 'Our sales team reviews your profile, location availability, and requirements.',
+                'url': `https://growmoreagriscience.com/${lang}/distributor`
+            },
+            {
+                '@type': 'HowToStep',
+                'name': lang === 'hi' ? 'साझेदारी और डीलरशिप शुरू करें' : 'Launch Partnership',
+                'text': lang === 'hi' ? 'डीलरशिप एग्रीमेंट पूरा करें और उत्पाद डिलीवरी प्राप्त करें।' : 'Complete terms, finalize the dealership agreement, and receive stock delivery.',
+                'url': `https://growmoreagriscience.com/${lang}/distributor`
+            }
+        ]
+    }
+
     return (
         <div className="flex flex-col w-full min-h-screen bg-slate-50">
             <Script
                 id="distributor-faq-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+            />
+            <Script
+                id="distributor-howto-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(howToApplyJsonLd) }}
             />
             {/* Hero Section */}
             <section className="relative py-24 md:py-40 flex items-center justify-center overflow-hidden min-h-[60vh]">

@@ -2,7 +2,7 @@
     "site": {
         "name": "ग्रो-मोर एग्री साइंस",
         "description": "प्रीमियम कृषि समाधान - उर्वरक, कीटनाशक और पौध विकास वर्धक",
-        "url": "https://www.growmore.in"
+        "url": "https://growmoreagriscience.com"
     },
     "navigation": {
         "home": "होम",
@@ -301,14 +301,14 @@
                     "role": "प्रबंध निदेशक",
                     "focus": "रणनीतिक दृष्टि",
                     "quote": "हमारा लक्ष्य सरल है: बेहतर उपज के माध्यम से किसान की आय को दोगुना करना।",
-                    "image": "/grow-more/images/team/founder1.jpg"
+                    "image": "/grow-more/images/team/yatin-patel.png"
                 },
                 {
                     "name": "विक्रम पटेल",
                     "role": "परिचालन निदेशक",
                     "focus": "आपूर्ति श्रृंखला",
                     "quote": "हमारे उत्पाद समय पर दूरदराज के गांवों तक पहुंचें, यह मेरा वादा है।",
-                    "image": "/grow-more/images/team/founder3.jpg"
+                    "image": "/grow-more/images/team/ravi-patel.png"
                 }
             ]
         }

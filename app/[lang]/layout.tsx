@@ -22,23 +22,26 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
             template: `%s | ${dict.site.name}`
         },
         description: dict.site.description,
-        alternates: {
-            canonical: `/${lang}`,
-            languages: {
-                'en': '/en',
-                'hi': '/hi',
-                'x-default': '/en',
-            },
-        },
         openGraph: {
             type: 'website',
             siteName: dict.site.name,
             locale: lang === 'hi' ? 'hi_IN' : 'en_US',
+            url: `/${lang}`,
+            images: [
+                {
+                    url: `/images/logo-removebg.png`,
+                    width: 500,
+                    height: 500,
+                    alt: dict.site.name,
+                }
+            ],
         },
         twitter: {
             card: 'summary_large_image',
             title: dict.site.name,
             description: dict.site.description,
+            site: '@growmoreagri',
+            images: [`/images/logo-removebg.png`],
         },
     }
 }

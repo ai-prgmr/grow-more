@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Footer({ lang, dict }: { lang: string, dict: any }) {
     return (
         <footer className="bg-slate-950 text-slate-300 py-16 border-t border-slate-800">
-            <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
-                <div className="col-span-2 md:col-span-1">
+            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+                <div>
                     <Link href={`/${lang}`} className="text-2xl font-bold mb-4 text-white block">
                         <Image src="/grow-more/images/logo-removebg.png" alt="grow more logo" width={150} height={150} />
                     </Link>

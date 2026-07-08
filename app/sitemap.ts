@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.growmore.in' // Update this with your actual domain
+    const baseUrl = 'https://growmoreagriscience.com' // Canonical domain
 
     const routes = [
         '',

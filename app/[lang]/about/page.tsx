@@ -1,13 +1,43 @@
 import { getDictionary } from "@/lib/dictionary"
 import Image from "next/image"
 import { Metadata } from "next"
+import Script from "next/script"
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
+    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.about.metadata.title,
         description: dict.about.metadata.description,
+        alternates: {
+            canonical: `/${lang}/about`,
+            languages: {
+                'en': `/en/about`,
+                'hi': `/hi/about`,
+                'x-default': `/en/about`,
+            },
+        },
+        openGraph: {
+            title: dict.about.metadata.title,
+            description: dict.about.metadata.description,
+            url: `/${lang}/about`,
+            images: [
+                {
+                    url: `/images/lush-green.jpg`,
+                    width: 1200,
+                    height: 630,
+                    alt: dict.about.metadata.title,
+                }
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.about.metadata.title,
+            description: dict.about.metadata.description,
+            site: '@growmoreagri',
+            images: [`/images/lush-green.jpg`],
+        },
     }
 }
 
@@ -15,9 +45,38 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
     const { about } = dict
+    const baseUrl = 'https://growmoreagriscience.com'
+
+    const aboutJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        'name': about.hero.title,
+        'description': about.hero.subtitle,
+        'url': `${baseUrl}/${lang}/about`,
+        'mainEntity': {
+            '@type': 'Organization',
+            'name': 'GrowMore Agri Science',
+            'url': baseUrl,
+            'logo': `${baseUrl}/images/logo-removedbg.png`,
+            'description': dict.site.description,
+            'foundingDate': '2015',
+            'knowsAbout': [
+                'Humic Acid Fertilizers',
+                'Plant Growth Promoters',
+                'Bio-safe Crop Protection',
+                'Sustainable Agriculture Solutions',
+                'Indian Farming'
+            ]
+        }
+    }
 
     return (
         <div className="flex flex-col w-full">
+            <Script
+                id="about-page-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }}
+            />
             {/* Hero Section */}
             <section className="w-full bg-green-50 py-16 md:py-24">
                 <div className="container mx-auto px-4 md:px-6">
@@ -94,9 +153,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
                                     {/* Since images are not generated yet, we use a colored div with initials or placeholder */}
                                     <div className="w-full h-full bg-slate-200 flex items-center justify-center text-slate-400">
                                         {/* If the user had images, we would put <Image src={member.image} ... /> here */}
-                                        <span className="sr-only">{member.name} photo</span>
-                                        {/* Placeholder visual */}
-                                        <svg className="h-20 w-20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+                                        <Image alt={member.name} src={member.image} fill />
                                     </div>
                                 </div>
                                 <div className="p-6 space-y-4">
