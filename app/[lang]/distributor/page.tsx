@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
             title: dict.distributors_page.metadata.title,
             description: dict.distributors_page.metadata.description,
             url: `/${lang}/distributor`,
+            type: 'website',
             images: [
                 {
                     url: `/images/distributor-image.png`,

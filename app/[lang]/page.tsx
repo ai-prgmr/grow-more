@@ -10,7 +10,6 @@ import Image from 'next/image'
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
-    const baseUrl = 'https://growmoreagriscience.com'
     return {
         title: dict.home.metadata.title,
         description: dict.home.metadata.description,
@@ -26,6 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
             title: dict.home.metadata.title,
             description: dict.home.metadata.description,
             url: `/${lang}`,
+            type: 'website',
             images: [
                 {
                     url: `/images/logo-removebg.png`,
