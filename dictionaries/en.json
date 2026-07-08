@@ -27,20 +27,20 @@
       {
         "title": "Maximize Your Yield",
         "subtitle": "Advanced formulas for Indian Agriculture",
-        "image": "/grow-more/images/banner/products.png",
-        "mobileImage": "/grow-more/images/banner/mobile-banner-1.png"
+        "image": "/images/banner/products.png",
+        "mobileImage": "/images/banner/mobile-banner-1.png"
       },
       {
         "title": "Protect Your Crops",
         "subtitle": "Bio-safe pesticides and fungicides",
-        "image": "/grow-more/images/banner/banner-2.png",
-        "mobileImage": "/grow-more/images/banner/mobile-banner-2.png"
+        "image": "/images/banner/banner-2.png",
+        "mobileImage": "/images/banner/mobile-banner-2.png"
       },
       {
         "title": "Join Our Network",
         "subtitle": "Become a verified distributor today",
-        "image": "/grow-more/images/banner/banner-3.png",
-        "mobileImage": "/grow-more/images/banner/mobile-banner-3.png"
+        "image": "/images/banner/banner-3.png",
+        "mobileImage": "/images/banner/mobile-banner-3.png"
       }
     ],
     "features": [
@@ -107,19 +107,19 @@
             "name": "Grow Fast",
             "desc": "Accelerates vegetative growth in all crops.",
             "featured": true,
-            "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg"
+            "image": "/images/bottles/new/Grow-Fast.jpeg"
           },
           {
             "id": "ultima",
             "name": "Ultima",
             "desc": "Accelerates vegetative growth in all crops.",
-            "image": "/grow-more/images/bottles/new/Ultima.jpeg"
+            "image": "/images/bottles/new/Ultima.jpeg"
           },
           {
             "id": "ulti-max",
             "name": "UltiMAX",
             "desc": "Dual action plant growth promoter and protectant.",
-            "image": "/grow-more/images/bottles/new/UltiMax.jpeg",
+            "image": "/images/bottles/new/UltiMax.jpeg",
             "featured": true
           },
           {
@@ -127,19 +127,19 @@
             "name": "Humi Zone Humic Acid Liquid",
             "desc": "Premium liquid humic acid for soil conditioning.",
             "featured": false,
-            "image": "/grow-more/images/bottles/new/Humi-Zone.jpeg"
+            "image": "/images/bottles/new/Humi-Zone.jpeg"
           },
           {
             "id": "humi-red",
             "name": "Humi Zone Red Humic Acid Powder",
             "desc": "100% Water Soluble powder for enhanced root growth.",
-            "image": "/grow-more/images/bottles/new/Humi-Zone-Red.jpeg"
+            "image": "/images/bottles/new/Humi-Zone-Red.jpeg"
           },
           {
             "id": "humi-plus",
             "name": "Humi Zone Plus Humic Acid Powder",
             "desc": "Advanced formula for maximum nutrient absorption.",
-            "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
+            "image": "/images/bottles/new/Humi-Zone-Plus.jpeg"
           }
         ]
       },
@@ -153,7 +153,7 @@
             "name": "G Flower Flowering Stimulant",
             "desc": "Ensures profuse flowering and better yield.",
             "featured": true,
-            "image": "/grow-more/images/bottles/new/G-Flower.jpeg"
+            "image": "/images/bottles/new/G-Flower.jpeg"
           }
         ]
       },
@@ -166,20 +166,20 @@
             "id": "grow-star",
             "name": "Grow Star Granules Soil Conditioner",
             "desc": "Enriches soil with essential micro-nutrients.",
-            "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
+            "image": "/images/bottles/new/Grow-Star.jpeg"
           },
           {
             "id": "zenstar",
             "name": "ZenStar",
             "desc": "Zenstar a premium product",
             "featured": true,
-            "image": "/grow-more/images/bottles/new/zenstar-granules.png"
+            "image": "/images/bottles/new/zenstar-granules.png"
           },
           {
             "id": "unizyme",
             "name": "Unizyme Plant Hormones",
             "desc": "Agricultural fertilizer for robust plant health.",
-            "image": "/grow-more/images/bottles/new/unizyme.jpeg"
+            "image": "/images/bottles/new/unizyme.jpeg"
           }
         ]
       },
@@ -192,20 +192,20 @@
             "id": "killer-bio",
             "name": "Killer Bio Crop Protector",
             "desc": "Organic solution for pest management.",
-            "image": "/grow-more/images/bottles/Killer-no-bg.png",
+            "image": "/images/bottles/Killer-no-bg.png",
             "featured": true
           },
           {
             "id": "super-killer",
             "name": "Super Killer",
             "desc": "Dual action plant growth promoter and protectant.",
-            "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+            "image": "/images/bottles/super-killer-no-bg.png"
           },
           {
             "id": "bio-3g-combo-special",
             "name": "Bio-3G Combo Special",
             "desc": "Bio 3g Combo Special",
-            "image": "/grow-more/images/bottles/new/bio-3g-combo.png",
+            "image": "/images/bottles/new/bio-3g-combo.png",
             "featured": true
           }
         ]
@@ -219,7 +219,7 @@
             "id": "grow-wet",
             "name": "Grow Wet Silicone Wetting & Spreading Agent",
             "desc": "Superior spreading and wetting agent.",
-            "image": "/grow-more/images/bottles/new/silicone-spreader.png",
+            "image": "/images/bottles/new/silicone-spreader.png",
             "featured": true
           }
         ]
@@ -301,14 +301,14 @@
           "role": "Managing Director",
           "focus": "Strategic Vision",
           "quote": "Our goal is simple: Double the farmer's income through better yield.",
-          "image": "/grow-more/images/team/yatin-patel.png"
+          "image": "/images/team/yatin-patel.png"
         },
         {
           "name": "Ravi Patel",
           "role": "Director of Operations",
           "focus": "Supply Chain & Support",
           "quote": "Ensuring our products reach the remotest village on time is my promise.",
-          "image": "/grow-more/images/team/ravi-patel.png"
+          "image": "/images/team/ravi-patel.png"
         }
       ]
     }

@@ -109,7 +109,7 @@ export default async function DistributorPage({ params }: { params: Promise<{ la
             <section className="relative py-24 md:py-40 flex items-center justify-center overflow-hidden min-h-[60vh]">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/grow-more/images/distributor-image.png"
+                        src="/images/distributor-image.png"
                         alt="GrowMore Distributor Network"
                         fill
                         className="object-cover object-center"

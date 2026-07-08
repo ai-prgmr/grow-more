@@ -27,20 +27,20 @@
             {
                 "title": "अपनी उपज अधिकतम करें",
                 "subtitle": "भारतीय कृषि के लिए उन्नत सूत्र",
-                "image": "/grow-more/images/banner/products.png",
-                "mobileImage": "/grow-more/images/banner/mobile-banner-1.png"
+                "image": "/images/banner/products.png",
+                "mobileImage": "/images/banner/mobile-banner-1.png"
             },
             {
                 "title": "अपनी फसलों की सुरक्षा करें",
                 "subtitle": "जैव-सुरक्षित कीटनाशक और कवकनाशी",
-                "image": "/grow-more/images/banner/banner-2.png",
-                "mobileImage": "/grow-more/images/banner/mobile-banner-1.png"
+                "image": "/images/banner/banner-2.png",
+                "mobileImage": "/images/banner/mobile-banner-1.png"
             },
             {
                 "title": "हमारे नेटवर्क से जुड़ें",
                 "subtitle": "आज ही सत्यापित वितरक बनें",
-                "image": "/grow-more/images/banner/banner-3.png",
-                "mobileImage": "/grow-more/images/banner/mobile-banner-1.png"
+                "image": "/images/banner/banner-3.png",
+                "mobileImage": "/images/banner/mobile-banner-1.png"
             }
         ],
         "features": [
@@ -106,40 +106,40 @@
                         "id": "grow-fast",
                         "name": "ग्रो फास्ट प्लांट ग्रोथ प्रमोटर",
                         "desc": "सभी फसलों में वानस्पतिक विकास को गति देता है।",
-                        "image": "/grow-more/images/bottles/new/Grow-Fast.jpeg",
+                        "image": "/images/bottles/new/Grow-Fast.jpeg",
                         "featured": true
                     },
                     {
                         "id": "ultima",
                         "name": "अल्टिमा प्लांट ग्रोथ प्रमोटर",
                         "desc": "सभी फसलों में वानस्पतिक विकास को गति देता है।",
-                        "image": "/grow-more/images/bottles/new/Ultima.jpeg"
+                        "image": "/images/bottles/new/Ultima.jpeg"
                     },
                     {
                         "id": "ulti-max",
                         "name": "अल्टी-मैक्स बायो क्रॉप प्रोटेक्टेंट",
                         "desc": "दोहरी कार्रवाई वाला प्लांट ग्रोथ प्रमोटर और रक्षक।",
-                        "image": "/grow-more/images/bottles/new/UltiMax.jpeg",
+                        "image": "/images/bottles/new/UltiMax.jpeg",
                         "featured": true
                     },
                     {
                         "id": "humi-liquid",
                         "name": "ह्यूमी ज़ोन ह्यूमिक एसिड लिक्विड",
                         "desc": "मिट्टी की कंडीशनिंग के लिए प्रीमियम लिक्विड ह्यूमिक एसिड।",
-                        "image": "/grow-more/images/bottles/new/Humi-Zone.jpeg",
+                        "image": "/images/bottles/new/Humi-Zone.jpeg",
                         "featured": false
                     },
                     {
                         "id": "humi-red",
                         "name": "ह्यूमी ज़ोन रेड ह्यूमिक एसिड पाउडर",
                         "desc": "जड़ों के बेहतर विकास के लिए 100% पानी में घुलनशील पाउडर।",
-                        "image": "/grow-more/images/bottles/new/Humi-Zone-Red.jpeg"
+                        "image": "/images/bottles/new/Humi-Zone-Red.jpeg"
                     },
                     {
                         "id": "humi-plus",
                         "name": "ह्यूमी ज़ोन प्लस ह्यूमिक एसिड पाउडर",
                         "desc": "अधिकतम पोषक तत्वों के अवशोषण के लिए उन्नत फार्मूला।",
-                        "image": "/grow-more/images/bottles/new/Humi-Zone-Plus.jpeg"
+                        "image": "/images/bottles/new/Humi-Zone-Plus.jpeg"
                     }
                 ]
             },
@@ -152,7 +152,7 @@
                         "id": "g-flower",
                         "name": "जी फ्लावर फ्लावरिंग स्टिमुलेंट",
                         "desc": "प्रचुर मात्रा में फूल और बेहतर उपज सुनिश्चित करता है।",
-                        "image": "/grow-more/images/bottles/new/G-Flower.jpeg",
+                        "image": "/images/bottles/new/G-Flower.jpeg",
                         "featured": true
                     }
                 ]
@@ -166,20 +166,20 @@
                         "id": "grow-star",
                         "name": "ग्रो स्टार ग्रेन्यूल्स सॉइल कंडीशनर",
                         "desc": "मिट्टी को आवश्यक सूक्ष्म पोषक तत्वों से समृद्ध करता है।",
-                        "image": "/grow-more/images/bottles/new/Grow-Star.jpeg"
+                        "image": "/images/bottles/new/Grow-Star.jpeg"
                     },
                     {
                         "id": "zenstar",
                         "name": "ZenStar",
                         "desc": "Zenstar एक प्रीमियम उत्पाद है",
-                        "image": "/grow-more/images/bottles/new/zenstar-granules.png",
+                        "image": "/images/bottles/new/zenstar-granules.png",
                         "featured": true
                     },
                     {
                         "id": "unizyme",
                         "name": "यूनीज़िम प्लांट हार्मोन्स",
                         "desc": "मजबूत पौधों के स्वास्थ्य के लिए कृषि उर्वरक।",
-                        "image": "/grow-more/images/bottles/new/unizyme.jpeg"
+                        "image": "/images/bottles/new/unizyme.jpeg"
                     }
                 ]
             },
@@ -192,20 +192,20 @@
                         "id": "killer-bio",
                         "name": "किलर बायो क्रॉप प्रोटेक्टेंट कीटनाशक",
                         "desc": "कीट प्रबंधन के लिए जैविक समाधान।",
-                        "image": "/grow-more/images/bottles/Killer-no-bg.png",
+                        "image": "/images/bottles/Killer-no-bg.png",
                         "featured": true
                     },
                     {
                         "id": "super-killer",
                         "name": "सुपर किलर बायो क्रॉप प्रोटेक्टेंट",
                         "desc": "दोहरी कार्रवाई वाला प्लांट ग्रोथ प्रमोटर और रक्षक।",
-                        "image": "/grow-more/images/bottles/super-killer-no-bg.png"
+                        "image": "/images/bottles/super-killer-no-bg.png"
                     },
                     {
                         "id": "bio-3g-combo-special",
                         "name": "बायो-3जी कॉम्बो स्पेशल",
                         "desc": "बायो-3जी प्रीमियम कॉम्बो फसल रक्षक और विकास वर्धक।",
-                        "image": "/grow-more/images/bottles/new/bio-3g-combo.png",
+                        "image": "/images/bottles/new/bio-3g-combo.png",
                         "featured": true
                     }
                 ]
@@ -219,7 +219,7 @@
                         "id": "grow-wet",
                         "name": "ग्रो वेट सिलिकॉन वेटिंग एजेंट",
                         "desc": "बेहतर फैलाव और गीला करने वाला एजेंट।",
-                        "image": "/grow-more/images/bottles/new/silicone-spreader.png",
+                        "image": "/images/bottles/new/silicone-spreader.png",
                         "featured": true
                     }
                 ]
@@ -301,14 +301,14 @@
                     "role": "प्रबंध निदेशक",
                     "focus": "रणनीतिक दृष्टि",
                     "quote": "हमारा लक्ष्य सरल है: बेहतर उपज के माध्यम से किसान की आय को दोगुना करना।",
-                    "image": "/grow-more/images/team/yatin-patel.png"
+                    "image": "/images/team/yatin-patel.png"
                 },
                 {
                     "name": "विक्रम पटेल",
                     "role": "परिचालन निदेशक",
                     "focus": "आपूर्ति श्रृंखला",
                     "quote": "हमारे उत्पाद समय पर दूरदराज के गांवों तक पहुंचें, यह मेरा वादा है।",
-                    "image": "/grow-more/images/team/ravi-patel.png"
+                    "image": "/images/team/ravi-patel.png"
                 }
             ]
         }

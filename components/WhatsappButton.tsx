@@ -21,7 +21,7 @@ export default async function WhatsAppButton({ dict }: { dict: any }) {
                 aria-label="Chat on WhatsApp"
             >
                 <Image
-                    src="/grow-more/images/Digital_Glyph_Green.svg"
+                    src="/images/Digital_Glyph_Green.svg"
                     alt="WhatsApp Icon"
                     width={40}
                     height={40}

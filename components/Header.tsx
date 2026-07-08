@@ -19,7 +19,7 @@ export default function Header({ lang, dict }: { lang: string, dict: any }) {
             <div className="container mx-auto px-4 h-20 flex items-center justify-between">
                 <Link href={`/${lang}`} className="text-2xl font-bold text-green-700 tracking-light">
                     <Image
-                        src="/grow-more/images/logo-removebg.png"
+                        src="/images/logo-removebg.png"
                         alt="grow more logo"
                         width={200}
                         height={50}

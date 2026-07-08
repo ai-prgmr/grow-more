@@ -7,7 +7,7 @@ export default function Footer({ lang, dict }: { lang: string, dict: any }) {
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
                 <div>
                     <Link href={`/${lang}`} className="text-2xl font-bold mb-4 text-white block">
-                        <Image src="/grow-more/images/logo-removebg.png" alt="grow more logo" width={150} height={150} />
+                        <Image src="/images/logo-removebg.png" alt="grow more logo" width={150} height={150} />
                     </Link>
                     <p className="text-slate-400 text-sm max-w-sm leading-relaxed">
                         {dict.home.subtitle}Empowering Indian farmers with advanced agricultural biotechnology to maximize yield and soil health.

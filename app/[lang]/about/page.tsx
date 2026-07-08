@@ -92,7 +92,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
                         </div>
                         {/* Placeholder for Hero Image - Could be a farm or team photo */}
                         <div className="rounded-xl overflow-hidden shadow-xl aspect-video bg-green-200 relative">
-                            <Image src="/grow-more/images/lush-green.png" alt="Lush Green" fill className="object-cover" />
+                            <Image src="/images/lush-green.png" alt="Lush Green" fill className="object-cover" />
                         </div>
                     </div>
                 </div>

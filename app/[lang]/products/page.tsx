@@ -127,7 +127,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
             {/* Hero Section */}
             <div className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center mb-16">
                 <Image
-                    src="/grow-more/images/lush-green.jpg"
+                    src="/images/lush-green.jpg"
                     alt={dict.products.title}
                     fill
                     className="object-cover"
@@ -183,7 +183,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
 
                                             <div className="pt-4 w-full h-full flex flex-row gap-2 justify-center items-center border-slate-100 mt-auto">
                                                 <Image
-                                                    src="/grow-more/images/Digital_Glyph_Green.svg"
+                                                    src="/images/Digital_Glyph_Green.svg"
                                                     alt="WhatsApp Icon"
                                                     width={20}
                                                     height={20}

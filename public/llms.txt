@@ -4,16 +4,16 @@
 
 ## Core Navigation
 
-- [English Homepage](https://growmoreagriscience.com/grow-more/en): Main landing page detailing our agricultural solutions, features, and FAQs.
-- [Hindi Homepage (होमपेज)](https://growmoreagriscience.com/grow-more/hi): मुख्य लैंडिंग पेज जो ग्रो-मोर के कृषि समाधानों, विशिष्टताओं और सामान्य प्रश्नों को हिंदी में दर्शाता है.
-- [English Products](https://growmoreagriscience.com/grow-more/en/products): Explore our range of premium products like Humi Zone, Grow Fast, and Killer Bio.
-- [Hindi Products (उत्पाद)](https://growmoreagriscience.com/grow-more/hi/products): हमारे जैविक उर्वरकों, विकास वर्धकों और कीट रक्षकों की विस्तृत सूची.
-- [English About Us](https://growmoreagriscience.com/grow-more/en/about): Our history, values, performance stats, and founders.
-- [Hindi About Us (हमारे बारे में)](https://growmoreagriscience.com/grow-more/hi/about): ग्रो-मोर की यात्रा, मूल सिद्धांत, सफलता के आंकड़े और संस्थापक मंडल.
-- [English Distributors](https://growmoreagriscience.com/grow-more/en/distributor): Information and forms to join our network of 200+ dealers.
-- [Hindi Distributors (वितरक)](https://growmoreagriscience.com/grow-more/hi/distributor): हमारे बढ़ते डीलर नेटवर्क से जुड़ने के लिए आवेदन और विवरण.
-- [English Contact Us](https://growmoreagriscience.com/grow-more/en/contact): Helpdesk numbers, factory coordinates, and email contact information.
-- [Hindi Contact Us (संपर्क करें)](https://growmoreagriscience.com/grow-more/hi/contact): किसान हेल्पलाइन, सेल्स सपोर्ट, कार्यालय और व्हाट्सएप संपर्क विवरण.
+- [English Homepage](https://growmoreagriscience.com/en): Main landing page detailing our agricultural solutions, features, and FAQs.
+- [Hindi Homepage (होमपेज)](https://growmoreagriscience.com/hi): मुख्य लैंडिंग पेज जो ग्रो-मोर के कृषि समाधानों, विशिष्टताओं और सामान्य प्रश्नों को हिंदी में दर्शाता है.
+- [English Products](https://growmoreagriscience.com/en/products): Explore our range of premium products like Humi Zone, Grow Fast, and Killer Bio.
+- [Hindi Products (उत्पाद)](https://growmoreagriscience.com/hi/products): हमारे जैविक उर्वरकों, विकास वर्धकों और कीट रक्षकों की विस्तृत सूची.
+- [English About Us](https://growmoreagriscience.com/en/about): Our history, values, performance stats, and founders.
+- [Hindi About Us (हमारे बारे में)](https://growmoreagriscience.com/hi/about): ग्रो-मोर की यात्रा, मूल सिद्धांत, सफलता के आंकड़े और संस्थापक मंडल.
+- [English Distributors](https://growmoreagriscience.com/en/distributor): Information and forms to join our network of 200+ dealers.
+- [Hindi Distributors (वितरक)](https://growmoreagriscience.com/hi/distributor): हमारे बढ़ते डीलर नेटवर्क से जुड़ने के लिए आवेदन और विवरण.
+- [English Contact Us](https://growmoreagriscience.com/en/contact): Helpdesk numbers, factory coordinates, and email contact information.
+- [Hindi Contact Us (संपर्क करें)](https://growmoreagriscience.com/hi/contact): किसान हेल्पलाइन, सेल्स सपोर्ट, कार्यालय और व्हाट्सएप संपर्क विवरण.
 
 ## Core Product Categories
 
