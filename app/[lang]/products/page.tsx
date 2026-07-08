@@ -6,6 +6,10 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { HelpCircle } from 'lucide-react'
 
+export async function generateStaticParams() {
+    return [{ lang: 'en' }, { lang: 'hi' }]
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
