@@ -7,6 +7,10 @@ import Image from "next/image"
 import Script from "next/script"
 import DistributorForm from "@/components/DistributorForm"
 
+export async function generateStaticParams() {
+    return [{ lang: 'en' }, { lang: 'hi' }]
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
     const { lang } = await params
     const dict = await getDictionary(lang as "en" | "hi")
